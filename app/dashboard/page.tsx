@@ -13,7 +13,7 @@ export default function Dashboard() {
           <UserButton/>
         </div>
         <div className="text-sm text-white font-semilight flex items-center justify-center mt-3">
-          Hello {user?.firstName}! Welcome to your dashboard
+          Hello {user?.firstName}! Welcome to your dashboard!
         </div>
       </div>
       <div className="flex flex-col w-2/3 ml-3 mr-3">
