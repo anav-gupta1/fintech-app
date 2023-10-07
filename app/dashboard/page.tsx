@@ -17,7 +17,7 @@ export default function Dashboard() {
         <div className="text-xl text-white font-bold flex items-center justify-center mt-3">
           Hello {user?.firstName}! Welcome to your dashboard!
         </div>
-        <div className="flex items-center px-4 mt-8 text-xl font-bold">
+        <div className="flex items-center px-2 mt-8 text-xl font-bold">
           Matches
         </div>
         <div>
