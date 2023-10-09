@@ -1,9 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import { useUser } from "@clerk/nextjs";
 
 export default function Onboarding() {
-  const { isLoaded, isSignedIn, user } = useUser();
   const [selectedOption, setSelectedOption] = useState("Investor");
   const [businessType, setBusinessType] = useState("PreMoney");
   const [investorType, setInvestorType] = useState("VentureCapitalist"); // Add default investor type

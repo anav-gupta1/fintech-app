@@ -2,7 +2,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import { Kumbh_Sans } from "next/font/google";
-import { ClerkProvider, SignedIn } from "@clerk/nextjs";
 
 const kumbhsans = Kumbh_Sans({ subsets: ["latin"] });
 
@@ -17,15 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider>
       <html lang="en">
         <body className={kumbhsans.className}>
-          <SignedIn>
             <Navbar />
-          </SignedIn>
           {children}
         </body>
       </html>
-    </ClerkProvider>
   );
 }
