@@ -16,9 +16,6 @@ const Navbar = () => {
           <Link href={"/dashboard"}>
             <div className="font-light text-xl mr-8">Dashboard</div>
           </Link>
-          <Link href={"/onboarding"}>
-            <div className="font-light text-xl mr-4">Onboarding</div>
-          </Link>
         </div>
       </div>
     </nav>

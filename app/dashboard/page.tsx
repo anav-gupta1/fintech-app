@@ -1,6 +1,6 @@
-"use client"
+"use client";
 import React, { useState } from "react";
-import { ArrowRight, Info } from "lucide-react";
+import { ArrowRight, Info, Search } from "lucide-react";
 import {
   Chart as ChartJS,
   LineElement,
@@ -12,9 +12,18 @@ import {
   Legend,
 } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
-import { Line } from 'react-chartjs-2';
+import { Line } from "react-chartjs-2";
+import { UserButton } from "@clerk/nextjs";
 
-ChartJS.register(ArcElement, Tooltip, Legend, LineElement, CategoryScale, LinearScale, PointElement);
+ChartJS.register(
+  ArcElement,
+  Tooltip,
+  Legend,
+  LineElement,
+  CategoryScale,
+  LinearScale,
+  PointElement
+);
 
 export default function Dashboard() {
   const [isBusiness, setIsBusiness] = useState(false);
@@ -38,86 +47,145 @@ export default function Dashboard() {
         borderColor: ["orange"],
         pointBorderColor: ["transparent"],
         pointBorderWidth: 4,
-      }
-    ]
+      },
+    ],
   };
 
   return (
-    <div>
-      <div className="flex">
+    <div
+      className="bg-zinc-800 w-7/8 ml-6 mr-6 w-6/7 rounded-lg"
+      style={{ height: "85vh" }}
+    >
+      <div className="flex items-center justify-start px-4">
+        <h1 className="font-semibold text-2xl mt-4">Dashboard</h1>
+      </div>
+      <div className="flex items-center justify-start px-4 mt-4">
         <div
-          className="w-1/3 ml-3 mb-4 bg-zinc-800 rounded-lg"
-          style={{ height: "35vh" }}
+          className="w-[450px] rounded-lg ml-8 relative"
+          style={{ height: "200px" }}
         >
-          <div className="flex items-center between px-4">
-            <div className="ml-4 font-semibold text-lg mt-4">
-              Hello Anav
-            </div>
-          </div>
-          <div>
-            <div className="mt-3 flex items-center justify-start">
-              <div>
-                <span className="font-semibold text-xl text-white px-4 flex items-center mt-4">
-                  Companies Around You
-                </span>
-                <div className="border border-gray-600 w-[300px] h-[75px] rounded-md ml-4 mt-2 flex items-center justify-start p-4">
-                  <Info />
-                  <span className="text-gray-400 text-sm font-semilight p-4">
-                    This is a list of companies that matches what you're looking
-                    for.
-                  </span>
-                </div>
-                <div className="mt-3 flex px-4 flex items-center justify-start">
-                  <button className="bg-gradient-to-br from-pink-500 to-orange-400 border border-gray-600 rounded-lg w-[100px] h-[40px] mt-4">
-                    <div className="flex items-center justify-center">
-                      <ArrowRight className="h-[20px] w-[20] ml-2" />
-                      <span className="font-light text-sm text-white mr-4">
-                        Matches
-                      </span>
-                    </div>
-                  </button>
-                </div>
+          <div
+            className="absolute top-0 left-0 w-full h-full rounded-lg"
+            style={{
+              background: "linear-gradient(to top right, transparent, #A0E5C8)",
+            }}
+          ></div>
+          <div className="w-full h-full bg-zinc-900 rounded-lg p-4">
+            <div className="flex items-center justify-center h-[150px]">
+              <UserButton/>
+              <div className="relative ml-2">
+                <input
+                  type="text"
+                  placeholder="Search"
+                  className="bg-black border border-white text-white rounded-full pl-10 pr-3 py-2"
+                />
+                <Search
+                  className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white"
+                  size={18}
+                />
               </div>
             </div>
           </div>
         </div>
         <div
-          className="w-2/3 bg-zinc-800 ml-3 mr-2 rounded-lg"
-          style={{ height: "35vh" }}
+          className="w-[450px] rounded-lg ml-8 relative"
+          style={{ height: "200px" }}
         >
-         <div className="flex items-center justify-start">
-          <div className="w-1/2 mx-auto mt-3">
-              <Line data={dataline} />
+          <div
+            className="absolute top-0 left-0 w-full h-full rounded-lg"
+            style={{
+              background: "linear-gradient(to top right, transparent, #D08D7B)",
+            }}
+          ></div>
+          <div className="w-full h-full bg-zinc-900 rounded-lg p-4">
+            <div className="flex items-center justify-center h-[150px]">
+              <Info />
+              <span className="text-lg font-light ml-2">
+                Below is a list of companies which you could go through,
+                generated completely by our matching algorithm
+              </span>
             </div>
-         </div>
+          </div>
+        </div>
+        <div
+          className="w-[450px] rounded-lg ml-8 relative"
+          style={{ height: "200px" }}
+        >
+          <div
+            className="absolute top-0 left-0 w-full h-full rounded-lg"
+            style={{
+              background: "linear-gradient(to top right, transparent, #54349C)",
+            }}
+          ></div>
+          <div className="w-full h-full bg-zinc-900 rounded-lg p-4">
+            <div className="flex items-center justify-center h-[100px]">
+              <Info />
+              <span className="text-lg font-light ml-2">
+                Click here to get some information about the latest stocks
+              </span>
+            </div>
+            <div className="flex items-center justify-center">
+              <button className="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                News
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="flex">
-        <div
-          className="w-1/3 ml-3 mb-3 bg-black rounded-lg bg-zinc-800"
-          style={{ height: "65vh" }}
-        >
-          <div className="flex items-center justify-center p-6">
-            <h1 className="font-semibold text-xl text-white px-4 flex items-center">
-              Companies You have Invested In
-            </h1>
-          </div>
-          <div className="w-1/2 mx-auto">
-            <Doughnut data={data} />
-          </div>
-          <div className="flex items-center justify-center mt-4">
-            <button className="bg-gradient-to-br from-pink-500 to-orange-400 border border-gray-600 rounded-lg w-[100px] h-[40px] mt-4">
-              <div className="flex items-center justify-between">
-                <ArrowRight className="h-[20px] w-[20] ml-2" />
-                <span className="font-light text-sm text-white mr-4">
-                  Details
-                </span>
-              </div>
-            </button>
-          </div>
-        </div>
-        <div className="w-1/3 ml-3 bg-zinc-800 rounded-lg mr-2 mb-3"></div>
-        <div className="w-1/3 ml-1 bg-zinc-800 rounded-lg mr-2 mb-3"></div>
+
+      <div className="flex items-center justify-center mt-4 overflow-x-auto">
+        <table className="border border-white">
+          <thead className="bg-zinc-800">
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email</th>
+              <th>Gender</th>
+              <th>City</th>
+              <th>Country</th>
+              <th>Age</th>
+              <th>Years of Experience</th>
+              <th>College Degree</th>
+              <th>University Name</th>
+              <th>University Tier</th>
+              <th>Company Name</th>
+              <th>Industry</th>
+              <th>Sector</th>
+              <th>Company Bio</th>
+              <th>Location</th>
+              <th>Valuation</th>
+              <th>Profitable</th>
+              <th>Growth Rate</th>
+              <th>Funding Round</th>
+              <th>Investor Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Shreedhar</td>
+              <td>Raj</td>
+              <td>i'mshreedharraj@ilikeshiv.com</td>
+              <td>Trans</td>
+              <td>New Delhi</td>
+              <td>India</td>
+              <td>25</td>
+              <td>5</td>
+              <td>Yes</td>
+              <td>Mahipalpur Institute of Technology</td>
+              <td>10</td>
+              <td>LetsLeap</td>
+              <td>Technology</td>
+              <td>Software</td>
+              <td>Leap towards a better future</td>
+              <td>Mahipalpuri Garage</td>
+              <td>$100M</td>
+              <td>Yes</td>
+              <td>10%</td>
+              <td>Series A</td>
+              <td>5</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   );
