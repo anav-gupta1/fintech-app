@@ -83,7 +83,7 @@ export default function Dashboard() {
           </thead>
           <tbody>
             <tr>
-              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold">
+              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold hover:text-decoration-line: underline;">
                 Shreedhar Industries
               </td>
               <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
