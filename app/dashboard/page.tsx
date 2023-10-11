@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import { ArrowRight, Filter, HelpCircle, Info, Search } from "lucide-react";
 import { UserButton } from "@clerk/nextjs";
+import Link from "next/link";
+
 
 export default function Dashboard() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -420,7 +422,9 @@ export default function Dashboard() {
         {dummyData.map((company, index) => (
           <tr key={index}>
             <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold hover:text-decoration-line: underline bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-              {company.name}
+                <Link href='/company-name'>
+                  {company.name}
+                </Link>
             </td>
             <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
               {company.email}
