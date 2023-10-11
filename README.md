@@ -31,8 +31,8 @@ SQLite | Flask | Scikit-Learn
 ```
 bash
 Copy code
-git clone https://github.com/yourusername/fintech-data-engine.git
-cd fintech-data-engine
+git clone https://github.com/chiplmunk/fintech-app.git
+cd fintech-app
 ```
 Navigate to the frontend directory and follow the setup instructions for Next.js and Clerk Auth.
 Set Up the Backend
