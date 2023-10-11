@@ -6,7 +6,33 @@ import Link from "next/link";
 
 
 export default function Dashboard() {
+    const dummyData = [
+    {
+      name: "Maggio Industries",
+      email: "lleroux1@joomla.org",
+      country: "Sweden",
+      description: "Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.",
+      industry: "Oil & Gas Production",
+    },
+    {
+      name: "Rasmussen College",
+      email: "asolomon3@shop-pro.jp",
+      country: "United States",
+      description: "In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+      industry: "Major Pharmaceuticals",
+    },
+    {
+      name:  "Wisozk, Corkery and Barrows",
+      email: "rscirman5@naver.com",
+      country: "Russia",
+      description: "Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+      industry: "Oil & Gas Production",
+    },
+  ];
   const [isModalOpen, setModalOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState(""); 
+  const [filteredData, setFilteredData] = useState(dummyData); 
+
 
   const openModal = () => {
     setModalOpen(true);
@@ -16,23 +42,16 @@ export default function Dashboard() {
     setModalOpen(false);
   };
 
-  const dummyData = [
-    {
-      name: "Shreedhar Industries",
-      email: "itsshreedharraj@gmail.com",
-      country: "India",
-      description: "A small description of the company",
-      industry: "Educational Technology",
-    },
-    {
-      name: "Aaryan Chadha",
-      email: "aaryanchadha@gmail.com",
-      country: "India",
-      description: "I am here to be a prompt engineer.",
-      industry: "Freelance Developer",
-    },
-    // Add more dummy data as needed
-  ];
+  const handleSearch = (e) => {
+    const query = e.target.value;
+    setSearchQuery(query);
+
+    const filteredResults = dummyData.filter((company) =>
+      company.name.toLowerCase().includes(query.toLowerCase())
+    );
+
+    setFilteredData(filteredResults);
+  };
 
   return (
     <div>
@@ -84,6 +103,8 @@ export default function Dashboard() {
             className="w-full bg-transparent border border-gray-400 rounded-lg pl-4 pr-10 py-2"
             style={{ height: "40px" }}
             placeholder="Search for companies"
+            value={searchQuery} 
+            onChange={handleSearch}
           />
           <div className="absolute top-0 right-0 flex items-center h-full pr-3">
             <Search />
@@ -99,7 +120,7 @@ export default function Dashboard() {
           <div className="bg-black p-4 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold">Filter Your Results</h2>
 
-            {/* Valuation Range filter */}
+
             <label className="block text-gray-600 font-medium mt-4">
               Valuation Range
             </label>
@@ -111,7 +132,6 @@ export default function Dashboard() {
                 max="50000000"
                 step="100000"
                 onChange={(e) => {
-                  // Handle the slider value change here
                   const valuation = e.target.value;
                   console.log(valuation);
                 }}
@@ -119,7 +139,7 @@ export default function Dashboard() {
               <span>50,000,000</span>
             </div>
 
-            {/* Founder's Age filter */}
+
             <label className="block text-gray-600 font-medium mt-4">
               Founder's Age
             </label>
@@ -131,7 +151,7 @@ export default function Dashboard() {
                 max="100"
                 step="1"
                 onChange={(e) => {
-                  // Handle the slider value change here
+                  
                   const age = e.target.value;
                   console.log(age);
                 }}
@@ -139,9 +159,7 @@ export default function Dashboard() {
               <span>100</span>
             </div>
 
-            {/* Add more filter options here, such as years of experience, college degree, etc. */}
-
-            {/* College Degree filter */}
+          
             <label className="block text-gray-600 font-medium mt-4">
               College Degree
             </label>
@@ -153,21 +171,21 @@ export default function Dashboard() {
                 type="checkbox"
                 id="college-degree"
                 onChange={(e) => {
-                  // Handle the checkbox value change here
+                  
                   const hasDegree = e.target.checked;
                   console.log(hasDegree);
                 }}
               />
             </div>
 
-            {/* College Tier filter */}
+        
             <label className="block text-gray-600 font-medium mt-4">
               College Tier
             </label>
             <select
               className="bg-black"
               onChange={(e) => {
-                // Handle the selected college tier here
+                
                 const collegeTier = e.target.value;
                 console.log(collegeTier);
               }}
@@ -189,7 +207,7 @@ export default function Dashboard() {
                 max="50"
                 step="1"
                 onChange={(e) => {
-                  // Handle the founder's years of experience value change here
+                  
                   const experience = e.target.value;
                   console.log(experience);
                 }}
@@ -201,26 +219,26 @@ export default function Dashboard() {
               Growth Rate (%)
             </label>
             <input
-              className="bg-black border rounded-lg" // Add the "border" class here
+              className="bg-black border rounded-lg" 
               type="number"
               min="1"
               max="100"
               step="1"
               onChange={(e) => {
-                // Handle the growth rate value change here
+                
                 const growthRate = e.target.value;
                 console.log(growthRate);
               }}
             />
 
-            {/* Industrial Sectors filter */}
+       
             <label className="block text-gray-600 font-medium mt-4">
               Industrial Sectors
             </label>
             <select
               className="mx-auto pl-2 pr-4 bg-transparent border border-gray-400 rounded-lg p-2"
               onChange={(e) => {
-                // Handle the selected industrial sector here
+            
                 const selectedSector = e.target.value;
                 console.log(selectedSector);
               }}
@@ -240,14 +258,14 @@ export default function Dashboard() {
               <option>Transportation</option>
             </select>
 
-            {/* Industries filter */}
+
             <label className="block text-gray-600 font-medium mt-4">
               Industries
             </label>
             <select
               className="mx-auto pl-2 pr-4 bg-transparent border border-gray-400 rounded-lg p-2"
               onChange={(e) => {
-                // Handle the selected industry here
+            
                 const selectedIndustry = e.target.value;
                 console.log(selectedIndustry);
               }}
@@ -365,7 +383,7 @@ export default function Dashboard() {
             <select
               className="bg-black"
               onChange={(e) => {
-                // Handle the selected seed stage here
+                
                 const selectedSeedStage = e.target.value;
                 console.log(selectedSeedStage);
               }}
@@ -376,12 +394,11 @@ export default function Dashboard() {
               <option value="4">Series C</option>
             </select>
 
-            {/* Filter and Close Buttons */}
             <div className="flex justify-between mt-4">
               <button
                 className="bg-green-500 text-white rounded px-3 py-2"
                 onClick={() => {
-                  // Handle filter button click here
+                 
                 }}
               >
                 Filter
@@ -419,28 +436,28 @@ export default function Dashboard() {
             </tr>
           </thead>
           <tbody>
-        {dummyData.map((company, index) => (
-          <tr key={index}>
-            <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold hover:text-decoration-line: underline bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-                <Link href='/dashboard/company-name'>
-                  {company.name}
-                </Link>
-            </td>
-            <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
-              {company.email}
-            </td>
-            <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
-              {company.country}
-            </td>
-            <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
-              {company.description}
-            </td>
-            <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
-              {company.industry}
-            </td>
-          </tr>
-        ))}
-        </tbody>
+            {filteredData.map((company, index) => (
+              <tr key={index}>
+                <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold hover:text-decoration-line: underline bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
+                  <Link href='/dashboard/company-name'>
+                    {company.name}
+                  </Link>
+                </td>
+                <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
+                  {company.email}
+                </td>
+                <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
+                  {company.country}
+                </td>
+                <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
+                  {company.description}
+                </td>
+                <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
+                  {company.industry}
+                </td>
+              </tr>
+            ))}
+          </tbody>
 
         </table>
       </div>

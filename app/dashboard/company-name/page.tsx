@@ -9,14 +9,14 @@ const company = () => {
     <div className="flex items-center justify-center">
       <div className="border border-white rounded-lg h-[400px] w-[700px] p-4">
         <h1 className="font-extrabold text-2xl bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-          Shreedhar Industries
+          Maggio Industries
         </h1>
         <div className="flex items-center justify-start mt-4">
           <div className="mr-2">
             <Locate />
           </div>
           <span className="font-semibold text-sm">
-            New Delhi, India
+            Enskede ,Sweden
           </span>
         </div>
         <div className="flex items-center justify-start mt-4">
@@ -54,9 +54,9 @@ const company = () => {
           </div>
           <span className="font-bold text-sm">
             Contact:
-            <span className="font-semibold text-sm ml-2">John Doe</span>
+            <span className="font-semibold text-sm ml-2">Letizia Leroux</span>
           </span>
-          <span className="font-semibold text-sm ml-2">(john@example.com)</span>
+          <span className="font-semibold text-sm ml-2">(lleroux1@joomla.org)</span>
         </div>
         <div className="flex items-center justify-start mt-4">
           <div className="mr-2">
