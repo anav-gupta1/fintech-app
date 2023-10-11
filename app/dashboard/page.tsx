@@ -93,10 +93,10 @@ export default function Dashboard() {
                 India
               </td>
               <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
-                Prithvi-Shreedharraj Chauhan
+                A small description of the company
               </td>
               <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
-                Transgender trafficking
+                Educational Technology
               </td>
             </tr>
             <tr>
@@ -110,11 +110,10 @@ export default function Dashboard() {
                 India
               </td>
               <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
-                I am here to be a prompt engineer. I am a failed mixed martial
-                artist and serial murderer
+                I am here to be a prompt engineer.
               </td>
               <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
-                Freelance
+                Freelance Developer
               </td>
             </tr>
             {/* Add more rows as needed */}
