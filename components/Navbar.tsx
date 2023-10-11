@@ -6,20 +6,20 @@ const Navbar = () => {
     <nav>
       <div className="p-4 flex items-center justify-between">
         <Link href={"/"}>
-          <div className="flex items-center justify-start">
+          <div className="flex items-center justify-start ml-6">
             <img
               src='/logo.png'
-              height={28}
-              width={28}
+              height={32}
+              width={32}
             />
-            <h1 className="font-bold text-2xl bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent px-2">
+            <h1 className="font-bold text-2xl bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent px-3">
               VENTURELY
             </h1>
           </div>
         </Link>
         <div className="p-4 flex items-center">
           <Link href={"/dashboard"}>
-            <div className="font-light bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent text-lg font-semibold">DASHBOARD</div>
+            <div className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent text-lg font-semibold hover:scale-110 transition-transform ease-out">DASHBOARD</div>
           </Link>
         </div>
       </div>
