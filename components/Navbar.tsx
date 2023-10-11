@@ -12,7 +12,7 @@ const Navbar = () => {
               height={28}
               width={28}
             />
-            <h1 className="font-bold text-2xl bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
+            <h1 className="font-bold text-2xl bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent px-2">
               VENTURELY
             </h1>
           </div>
