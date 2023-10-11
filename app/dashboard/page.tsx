@@ -62,28 +62,28 @@ export default function Dashboard() {
       </div>
       <div className="overflow-x-auto mt-4 ml-4 mr-4 rounded-lg">
         <table className="min-w-full">
-          <thead className="bg-gray-600">
+          <thead className="bg-gray-800 border border-gray-400">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-100 uppercase tracking-wider border-r border-gray-400">
+              <th className="px-6 py-3 text-left text-xs font-medium bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent uppercase tracking-wider border-r border-gray-400">
                 Company Name
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-100 uppercase tracking-wider border-r border-gray-400">
+              <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider border-r border-gray-400">
                 Company Email
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-100 uppercase tracking-wider border-r border-gray-400">
+              <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider border-r border-gray-400">
                 Country
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-100 uppercase tracking-wider border-r border-gray-400">
+              <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider border-r border-gray-400">
                 Description
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-100 uppercase tracking-wider">
+              <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider">
                 Industry
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold hover:text-decoration-line: underline;">
+              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold hover:text-decoration-line: underline bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
                 Shreedhar Industries
               </td>
               <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
@@ -100,7 +100,7 @@ export default function Dashboard() {
               </td>
             </tr>
             <tr>
-              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold">
+              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
                 Aaryan Chadha
               </td>
               <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
