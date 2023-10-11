@@ -160,9 +160,9 @@ export default function Onboarding() {
                 </div>
                 <div>
                   <input
-                    type="text"
+                    type="number"
                     className="font-semilight text-sm bg-transparent border border-gray-400 rounded-lg pl-2 py-2 mt-2 w-[400px]"
-                    placeholder="Enter the tier of the college you have been to"
+                    placeholder="Enter the tier of the college you have been to, 1 2 or 3"
                   />
                 </div>
               </div>
