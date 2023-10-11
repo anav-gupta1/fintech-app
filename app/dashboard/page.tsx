@@ -422,7 +422,7 @@ export default function Dashboard() {
         {dummyData.map((company, index) => (
           <tr key={index}>
             <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold hover:text-decoration-line: underline bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-                <Link href='/company-name'>
+                <Link href='/dashboard/company-name'>
                   {company.name}
                 </Link>
             </td>
