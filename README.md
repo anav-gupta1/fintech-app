@@ -20,15 +20,20 @@ Scikit-Learn: A popular machine learning library for Python, providing tools for
 SQLite | Flask | Scikit-Learn
 
 ## 🏗️ Getting Started
-Clone the Repository
+### 📒 Prerequisites
+- Python 3.x
+- Flask
+- Pandas
+- Scikit-learn
+- SQLite
+- SQLAlchemy
+### 📇 Setup
 ```
 bash
 Copy code
 git clone https://github.com/yourusername/fintech-data-engine.git
 cd fintech-data-engine
 ```
-Set Up the Frontend
-
 Navigate to the frontend directory and follow the setup instructions for Next.js and Clerk Auth.
 Set Up the Backend
 
@@ -43,12 +48,9 @@ Run the Application
 
 Start the development server and navigate to your app's URL to begin exploring firm portfolios and utilizing the prediction model.
 ## 📈 Usage
-Browse Comprehensive Portfolios
-
-Explore portfolios of various firms to make informed investment decisions.
-Predict Future Performance
-
-Input specific criteria and let the machine learning model predict the future performance of a firm.
-Track Investments
-
-Keep track of your investments by monitoring historical and predicted performance.
+- Browse Comprehensive Portfolios
+- Explore portfolios of various firms to make informed investment decisions.
+- Predict Future Performance
+- Input specific criteria and let the machine learning model predict the future performance of a firm.
+- Track Investments
+- Keep track of your investments by monitoring historical and predicted performance.
