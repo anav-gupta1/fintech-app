@@ -14,6 +14,24 @@ export default function Dashboard() {
     setModalOpen(false);
   };
 
+  const dummyData = [
+    {
+      name: "Shreedhar Industries",
+      email: "itsshreedharraj@gmail.com",
+      country: "India",
+      description: "A small description of the company",
+      industry: "Educational Technology",
+    },
+    {
+      name: "Aaryan Chadha",
+      email: "aaryanchadha@gmail.com",
+      country: "India",
+      description: "I am here to be a prompt engineer.",
+      industry: "Freelance Developer",
+    },
+    // Add more dummy data as needed
+  ];
+
   return (
     <div>
       <div className="flex items-center justify-center mt-4">
@@ -399,42 +417,27 @@ export default function Dashboard() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold hover:text-decoration-line: underline bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-                Shreedhar Industries
-              </td>
-              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
-                itsshreedharraj@gmail.com
-              </td>
-              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
-                India
-              </td>
-              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
-                A small description of the company
-              </td>
-              <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
-                Educational Technology
-              </td>
-            </tr>
-            <tr>
-              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-                Aaryan Chadha
-              </td>
-              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
-                aaryanchadha@gmail.com
-              </td>
-              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
-                India
-              </td>
-              <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
-                I am here to be a prompt engineer.
-              </td>
-              <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
-                Freelance Developer
-              </td>
-            </tr>
-            {/* Add more rows as needed */}
-          </tbody>
+        {dummyData.map((company, index) => (
+          <tr key={index}>
+            <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold hover:text-decoration-line: underline bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
+              {company.name}
+            </td>
+            <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
+              {company.email}
+            </td>
+            <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
+              {company.country}
+            </td>
+            <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
+              {company.description}
+            </td>
+            <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
+              {company.industry}
+            </td>
+          </tr>
+        ))}
+        </tbody>
+
         </table>
       </div>
     </div>
