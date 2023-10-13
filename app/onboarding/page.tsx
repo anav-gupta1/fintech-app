@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { ChangeEvent, FormEvent, useState } from "react";
+import axios from "axios";
 
 export default function Onboarding() {
   const [selectedOption, setSelectedOption] = useState("Investor");
@@ -29,27 +30,29 @@ export default function Onboarding() {
     company_name: "",
   });
 
-  const handleOptionChange = (e) => {
+  const handleOptionChange = (e: ChangeEvent<HTMLSelectElement>) => {
     setSelectedOption(e.target.value);
   };
-  
-  const handleInputChange = (e) => {
+
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-  
 
-  const handleFormSubmit = async (e) => {
+  const handleFormSubmit = async (e: FormEvent) => {
     e.preventDefault(); // Prevent the default form submission behavior
-  
+   
     try {
-      const response = await fetch("/onboarding", {
+      const response = await fetch("http://127.0.0.1:5000/onboarding", {
         method: "POST",
         body: JSON.stringify(formData),
         headers: {
           "Content-Type": "application/json",
         },
+        mode: 'no-cors',
+        credentials: 'include',
       });
+      
       if (response.ok) {
         // Handle a successful response from your Flask API
         console.log("Company added successfully!");
@@ -61,6 +64,8 @@ export default function Onboarding() {
       console.error("An error occurred.", error);
     }
   };
+  
+  // ... (rest of your component)
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen mx-auto">
@@ -78,7 +83,7 @@ export default function Onboarding() {
         <form onSubmit={handleFormSubmit}>
           {selectedOption === "Investor" && (
             <div className="mt-6 flex items-center justify-center">
-              <Link href="/dashboard">
+              <Link href="/investordash">
                 <button
                   type="submit"
                   className="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"

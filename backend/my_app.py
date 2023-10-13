@@ -6,7 +6,7 @@ import pickle
 import pandas as pd
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/onboarding": {"origins": "http://localhost:3000"}})  # Allow requests from 'http://localhost:3000'
 
 with open('model.pkl', 'rb') as f:
     model, label_encoders = pickle.load(f)

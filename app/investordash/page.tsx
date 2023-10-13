@@ -91,7 +91,7 @@ export default function Dashboard() {
         <h1 className="font-extrabold text-3xl p-4">Dashboard</h1>
       </div>
       <div className="flex items-center justify-center">
-        <div className="w-[300px] h-[100px] border border-gray-500 rounded-lg mt-4 ml-4">
+        <div className="w-[300px] h-[100px] border border-gray-500 mt-4 ml-4">
           <h1 className="text-sm font-light px-4 mt-2">User Profile</h1>
           <div className="flex items-center justify-between">
             <h1 className="text-lg font-bold px-4 mt-2">Hello Anav!</h1>
@@ -111,9 +111,11 @@ export default function Dashboard() {
               <Search />
             </div>
           </div>
-          <button className="ml-4 text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-xs px-2 py-1 text-center">
-            Look!
-          </button>
+          <Link href='https://www.cnbc.com/world/?region=world'>
+            <button className="ml-4 text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-xs px-2 py-1 text-center">
+              Look!
+            </button>
+          </Link>
         </div>
         <div className="w-[300px] h-[100px] border border-gray-500 rounded-lg mt-4 ml-4">
           <h1 className="text-sm font-light px-4 mt-2">Need help?</h1>
@@ -139,8 +141,10 @@ export default function Dashboard() {
             onChange={handleInputChange}
           />
           <div className="absolute top-0 right-0 flex items-center h-full pr-3">
-            <Search />
-            <button className="bg-transparent" onClick={openModal}>
+            <div>
+              <Search/>
+            </div>
+            <button className="icon-container" onClick={openModal}>
               <Filter />
             </button>
           </div>
@@ -148,8 +152,8 @@ export default function Dashboard() {
       </div>
 
       {isModalOpen && (
-        <div className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-70 flex justify-center items-center">
-          <div className="bg-black p-4 rounded-lg shadow-md">
+        <div className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-70 border flex justify-center items-center ">
+          <div className="bg-black p-4 rounded-lg shadow-md border border-white">
             <h2 className="text-2xl font-semibold">Filter Your Results</h2>
 
             {/* Valuation Range */}
