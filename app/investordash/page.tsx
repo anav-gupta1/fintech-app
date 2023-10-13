@@ -1,38 +1,60 @@
-"use client";
-import React, { useState } from "react";
+"use client"
+import React, { useState, useEffect } from "react";
 import { ArrowRight, Filter, HelpCircle, Info, Search } from "lucide-react";
 import { UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 
+interface Company {
+  id: number;
+  first_name: string;
+  last_name: string;
+  email: string;
+  country: string;
+  company_bio: string;
+  company_name: string;
+  industry: string;
+  // Add other properties as needed
+}
 
 export default function Dashboard() {
-    const dummyData = [
-    {
-      name: "Maggio Industries",
-      email: "lleroux1@joomla.org",
-      country: "Sweden",
-      description: "Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.",
-      industry: "Oil & Gas Production",
-    },
-    {
-      name: "Rasmussen College",
-      email: "asolomon3@shop-pro.jp",
-      country: "United States",
-      description: "In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
-      industry: "Major Pharmaceuticals",
-    },
-    {
-      name:  "Wisozk, Corkery and Barrows",
-      email: "rscirman5@naver.com",
-      country: "Russia",
-      description: "Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
-      industry: "Oil & Gas Production",
-    },
-  ];
-  const [isModalOpen, setModalOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState(""); 
-  const [filteredData, setFilteredData] = useState(dummyData); 
+  const [data, setData] = useState<Company[]>([]);
+  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [filteredData, setFilteredData] = useState<Company[]>([]);
+  const [isModalOpen, setModalOpen] = useState<boolean>(false);
 
+  const [filters, setFilters] = useState({
+    valuation: 100000,
+    age: 10,
+    hasDegree: false,
+    collegeTier: "1",
+    experience: 1,
+    growthRate: 1,
+    selectedSector: "",
+    selectedIndustry: "",
+    selectedSeedStage: "1",
+  });
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/investordash", {
+          method: "GET",
+        });
+
+        if (!response.ok) {
+          throw new Error(`Request failed with status: ${response.status}`);
+        }
+
+        const jsonData = await response.json();
+        setData(jsonData);
+        setFilteredData(jsonData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   const openModal = () => {
     setModalOpen(true);
@@ -42,15 +64,25 @@ export default function Dashboard() {
     setModalOpen(false);
   };
 
-  const handleSearch = (e) => {
-    const query = e.target.value;
+  const handleSearch = (query: string) => {
     setSearchQuery(query);
 
-    const filteredResults = dummyData.filter((company) =>
-      company.name.toLowerCase().includes(query.toLowerCase())
-    );
+    const filteredResults = data.filter((company) => {
+      return (
+        company.first_name.toLowerCase().includes(query.toLowerCase()) ||
+        company.last_name.toLowerCase().includes(query.toLowerCase()) ||
+        company.company_bio.toLowerCase().includes(query.toLowerCase()) ||
+        company.company_name.toLowerCase().includes(query.toLowerCase())
+        // Add more properties if needed
+      );
+    });
 
     setFilteredData(filteredResults);
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const query = e.target.value;
+    handleSearch(query);
   };
 
   return (
@@ -103,8 +135,8 @@ export default function Dashboard() {
             className="w-full bg-transparent border border-gray-400 rounded-lg pl-4 pr-10 py-2"
             style={{ height: "40px" }}
             placeholder="Search for companies"
-            value={searchQuery} 
-            onChange={handleSearch}
+            value={searchQuery}
+            onChange={handleInputChange}
           />
           <div className="absolute top-0 right-0 flex items-center h-full pr-3">
             <Search />
@@ -115,12 +147,12 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {isModalOpen ? (
+      {isModalOpen && (
         <div className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-70 flex justify-center items-center">
           <div className="bg-black p-4 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold">Filter Your Results</h2>
 
-
+            {/* Valuation Range */}
             <label className="block text-gray-600 font-medium mt-4">
               Valuation Range
             </label>
@@ -132,14 +164,13 @@ export default function Dashboard() {
                 max="50000000"
                 step="100000"
                 onChange={(e) => {
-                  const valuation = e.target.value;
-                  console.log(valuation);
+                  setFilters({ ...filters, valuation: parseInt(e.target.value) });
                 }}
               />
               <span>50,000,000</span>
             </div>
 
-
+            {/* Founder's Age */}
             <label className="block text-gray-600 font-medium mt-4">
               Founder's Age
             </label>
@@ -151,15 +182,13 @@ export default function Dashboard() {
                 max="100"
                 step="1"
                 onChange={(e) => {
-                  
-                  const age = e.target.value;
-                  console.log(age);
+                  setFilters({ ...filters, age: parseInt(e.target.value) });
                 }}
               />
               <span>100</span>
             </div>
 
-          
+            {/* College Degree */}
             <label className="block text-gray-600 font-medium mt-4">
               College Degree
             </label>
@@ -171,23 +200,19 @@ export default function Dashboard() {
                 type="checkbox"
                 id="college-degree"
                 onChange={(e) => {
-                  
-                  const hasDegree = e.target.checked;
-                  console.log(hasDegree);
+                  setFilters({ ...filters, hasDegree: e.target.checked });
                 }}
               />
             </div>
 
-        
+            {/* College Tier */}
             <label className="block text-gray-600 font-medium mt-4">
               College Tier
             </label>
             <select
               className="bg-black"
               onChange={(e) => {
-                
-                const collegeTier = e.target.value;
-                console.log(collegeTier);
+                setFilters({ ...filters, collegeTier: e.target.value });
               }}
             >
               <option value="1">Tier 1</option>
@@ -195,6 +220,7 @@ export default function Dashboard() {
               <option value="3">Tier 3</option>
             </select>
 
+            {/* Founder's Years of Experience */}
             <label className="block text-gray-600 font-medium mt-4">
               Founder's Years of Experience
             </label>
@@ -207,185 +233,67 @@ export default function Dashboard() {
                 max="50"
                 step="1"
                 onChange={(e) => {
-                  
-                  const experience = e.target.value;
-                  console.log(experience);
+                  setFilters({ ...filters, experience: parseInt(e.target.value) });
                 }}
               />
               <span>50</span>
             </div>
 
+            {/* Growth Rate (%) */}
             <label className="block text-gray-600 font-medium mt-4">
               Growth Rate (%)
             </label>
             <input
-              className="bg-black border rounded-lg" 
+              className="bg-black border rounded-lg"
               type="number"
               min="1"
               max="100"
               step="1"
               onChange={(e) => {
-                
-                const growthRate = e.target.value;
-                console.log(growthRate);
+                setFilters({ ...filters, growthRate: parseInt(e.target.value) });
               }}
             />
 
-       
+            {/* Industrial Sectors */}
             <label className="block text-gray-600 font-medium mt-4">
               Industrial Sectors
             </label>
             <select
               className="mx-auto pl-2 pr-4 bg-transparent border border-gray-400 rounded-lg p-2"
               onChange={(e) => {
-            
-                const selectedSector = e.target.value;
-                console.log(selectedSector);
+                setFilters({ ...filters, selectedSector: e.target.value });
               }}
             >
               <option></option>
               <option>Energy</option>
               <option>Health Care</option>
-              <option>Finance</option>
-              <option>Technology</option>
-              <option>Capital Goods</option>
-              <option>Public Utilities</option>
-              <option>Consumer Services</option>
-              <option>Consumer Non-Durables</option>
-              <option>Consumer Durables</option>
-              <option>Basic Industries</option>
-              <option>Miscellaneous</option>
-              <option>Transportation</option>
+              {/* Add more sectors */}
             </select>
 
-
+            {/* Industries */}
             <label className="block text-gray-600 font-medium mt-4">
               Industries
             </label>
             <select
               className="mx-auto pl-2 pr-4 bg-transparent border border-gray-400 rounded-lg p-2"
               onChange={(e) => {
-            
-                const selectedIndustry = e.target.value;
-                console.log(selectedIndustry);
+                setFilters({ ...filters, selectedIndustry: e.target.value });
               }}
             >
               <option></option>
               <option>Oil & Gas Production</option>
               <option>Major Pharmaceuticals</option>
-              <option>Property-Casualty Insurers</option>
-              <option>Computer Software: Prepackaged Software</option>
-              <option>Auto Parts: O.E.M.</option>
-              <option>Fluid Controls</option>
-              <option>Real Estate Investment Trusts</option>
-              <option>Apparel</option>
-              <option>Commercial Banks</option>
-              <option>Business Services</option>
-              <option>Auto Manufacturing</option>
-              <option>Investment Bankers/Brokers/Service</option>
-              <option>Integrated Oil Companies</option>
-              <option>Recreational Products/Toys</option>
-              <option>Major Chemicals</option>
-              <option>Telecommunications Equipment</option>
-              <option>Medical/Nursing Services</option>
-              <option>Television Services</option>
-              <option>
-                Biotechnology: Commercial Physical & Biological Research
-              </option>
-              <option>Military/Government/Technical</option>
-              <option>Savings Institutions</option>
-              <option>Power Generation</option>
-              <option>Professional Services</option>
-              <option>Life Insurance</option>
-              <option>Precious Metals</option>
-              <option>Medical/Dental Instruments</option>
-              <option>Diversified Commercial Services</option>
-              <option>Containers/Packaging</option>
-              <option>Water Supply</option>
-              <option>Major Banks</option>
-              <option>Coal Mining</option>
-              <option>Meat/Poultry/Fish</option>
-              <option>Oilfield Services/Equipment</option>
-              <option>Industrial Machinery/Components</option>
-              <option>Electrical Products</option>
-              <option>Plastic Products</option>
-              <option>Restaurants</option>
-              <option>Department/Specialty Retail Stores</option>
-              <option>Office Equipment/Supplies/Services</option>
-              <option>Oil Refining/Marketing</option>
-              <option>Hospital/Nursing Management</option>
-              <option>Real Estate</option>
-              <option>
-                Biotechnology: In Vitro & In Vivo Diagnostic Substances
-              </option>
-              <option>Finance: Consumer Services</option>
-              <option>EDP Services</option>
-              <option>Commercial Banks</option>
-              <option>Automotive Aftermarket</option>
-              <option>Electronic Components</option>
-              <option>Computer Manufacturing</option>
-              <option>Books</option>
-              <option>Finance Companies</option>
-              <option>
-                Biotechnology: Electromedical & Electrotherapeutic Apparatus
-              </option>
-              <option>Computer Manufacturing</option>
-              <option>Oil Refining/Marketing</option>
-              <option>Other Consumer Services</option>
-              <option>Food Distributors</option>
-              <option>Broadcasting</option>
-              <option>Department/Specialty Retail Stores</option>
-              <option>Homebuilding</option>
-              <option>Computer Peripheral Equipment</option>
-              <option>Consumer Electronics/Appliances</option>
-              <option>Real Estate</option>
-              <option>Finance Companies</option>
-              <option>Farming/Seeds/Milling</option>
-              <option>Marine Transportation</option>
-              <option>Packaged Foods</option>
-              <option>Food Distributors</option>
-              <option>Tobacco</option>
-              <option>Medical Electronics</option>
-              <option>Building Operators</option>
-              <option>Textiles</option>
-              <option>Advertising</option>
-              <option>Food Chains</option>
-              <option>Catalog/Specialty Distribution</option>
-              <option>Rental/Leasing Companies</option>
-              <option>Newspapers/Magazines</option>
-              <option>Railroads</option>
-              <option>Steel/Iron Ore</option>
-              <option>Trucking Freight/Courier Services</option>
-              <option>Industrial Specialties</option>
-              <option>Building Materials</option>
-              <option>Aerospace</option>
-              <option>Computer Communications Equipment</option>
-              <option>Specialty Foods</option>
-              <option>Pollution Control Equipment</option>
-              <option>Miscellaneous Manufacturing Industries</option>
-              <option>Computer Software: Programming, Data Processing</option>
-              <option>Medical Specialties</option>
-              <option>
-                Radio and Television Broadcasting and Communications Equipment
-              </option>
-              <option>Military/Government/Technical</option>
-              <option>Shoe Manufacturing</option>
-              <option>Power Generation</option>
-              <option>Hotels/Resorts</option>
-              <option>Engineering & Construction</option>
-              <option>Air Freight/Delivery Services</option>
-              <option>Environmental Services</option>
+              {/* Add more industries */}
             </select>
 
+            {/* Seed Stage */}
             <label className="block text-gray-600 font-medium mt-4">
               Seed Stage
             </label>
             <select
               className="bg-black"
               onChange={(e) => {
-                
-                const selectedSeedStage = e.target.value;
-                console.log(selectedSeedStage);
+                setFilters({ ...filters, selectedSeedStage: e.target.value });
               }}
             >
               <option value="1">Seed</option>
@@ -398,7 +306,9 @@ export default function Dashboard() {
               <button
                 className="bg-green-500 text-white rounded px-3 py-2"
                 onClick={() => {
-                 
+                  // Apply filters here
+                  console.log("Applied filters:", filters);
+                  closeModal();
                 }}
               >
                 Filter
@@ -412,35 +322,38 @@ export default function Dashboard() {
             </div>
           </div>
         </div>
-      ) : null}
-
+      )}
+      
       <div className="overflow-x-auto mt-20 ml-4 mr-4 rounded-lg">
         <table className="min-w-full">
           <thead className="bg-gray-800 border border-gray-400">
             <tr>
               <th className="px-6 py-3 text-left text-xs font-medium bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent uppercase tracking-wider border-r border-gray-400">
-                Company Name
+                First Name
+              </th>
+              <th className="px-6 py-3 text-left text-xs font-medium bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent uppercase tracking-wider border-r border-gray-400">
+                Last Name
               </th>
               <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider border-r border-gray-400">
-                Company Email
+                Email
               </th>
               <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider border-r border-gray-400">
                 Country
               </th>
               <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider border-r border-gray-400">
-                Description
+                Company Bio
               </th>
               <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider">
                 Industry
               </th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="bg-white divide-y divide-gray-300">
             {filteredData.map((company, index) => (
               <tr key={index}>
                 <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold hover:text-decoration-line: underline bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-                  <Link href='/dashboard/company-name'>
-                    {company.name}
+                  <Link href={`/dashboard/${company.id}`}>
+                    {company.first_name} {company.last_name}
                   </Link>
                 </td>
                 <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
@@ -450,7 +363,7 @@ export default function Dashboard() {
                   {company.country}
                 </td>
                 <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
-                  {company.description}
+                  {company.company_bio}
                 </td>
                 <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
                   {company.industry}
@@ -458,7 +371,6 @@ export default function Dashboard() {
               </tr>
             ))}
           </tbody>
-
         </table>
       </div>
     </div>

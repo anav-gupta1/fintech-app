@@ -18,7 +18,7 @@ const Navbar = () => {
           </div>
         </Link>
         <div className="p-4 flex items-center">
-          <Link href={"/dashboard"}>
+          <Link href={"/investordash"}>
             <div className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent text-lg font-semibold hover:scale-110 transition-transform ease-out">DASHBOARD</div>
           </Link>
         </div>
