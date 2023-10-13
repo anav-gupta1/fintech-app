@@ -4,9 +4,10 @@ import os
 from flask_cors import CORS
 import pickle
 import pandas as pd
+import json
 
 app = Flask(__name__)
-CORS(app, resources={r"/onboarding": {"origins": "http://localhost:3000"}})  # Allow requests from 'http://localhost:3000'
+CORS(app)
 
 with open('model.pkl', 'rb') as f:
     model, label_encoders = pickle.load(f)
@@ -142,13 +143,13 @@ def search():
     if 'funding_round' in params:
         conditions.append(table.c.funding_round == int(params['funding_round']))
 
-    query = select([table]).where(and_(*conditions)) if conditions else select([table])
+    query = select(table).where(and_(*conditions))
 
     with engine.connect() as conn:
         result = conn.execute(query)
-        companies = [dict(row) for row in result]
-
-    return jsonify(companies)
+        
+    rows = [dict(res) for res in result.mappings().all()]
+    return json.dumps(rows)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8080)

@@ -37,7 +37,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/investordash", {
+        const response = await fetch("http://127.0.0.1:8080/investordash", {
           method: "GET",
         });
 
@@ -310,7 +310,6 @@ export default function Dashboard() {
               <button
                 className="bg-green-500 text-white rounded px-3 py-2"
                 onClick={() => {
-                  // Apply filters here
                   console.log("Applied filters:", filters);
                   closeModal();
                 }}

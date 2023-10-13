@@ -15,7 +15,7 @@ export default function Onboarding() {
     country: "",
     age: 0,
     YOE: 0,
-    college_bool: 0,
+    college_bool: "Yes",
     college_name: "",
     college_tier: 0,
     industry: "N/A",
@@ -28,19 +28,23 @@ export default function Onboarding() {
     investor_number: 0,
     profitable: "Yes",
     company_name: "",
-  });
+});
 
   const handleOptionChange = (e: ChangeEvent<HTMLSelectElement>) => {
     setSelectedOption(e.target.value);
   };
 
-  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
+if (name === "college_bool") {
+  setFormData({ ...formData, [name]: value === "Yes" ? "Yes" : "No" });
+} else {
+  setFormData({ ...formData, [name]: value });
+}
+  }
 
   const handleFormSubmit = async (e: FormEvent) => {
-    e.preventDefault(); // Prevent the default form submission behavior
+    e.preventDefault(); 
    
     try {
       const response = await fetch("http://127.0.0.1:5000/onboarding", {
@@ -48,16 +52,15 @@ export default function Onboarding() {
         body: JSON.stringify(formData),
         headers: {
           "Content-Type": "application/json",
+          'Accept':'application/json'
         },
         mode: 'no-cors',
         credentials: 'include',
       });
       
       if (response.ok) {
-        // Handle a successful response from your Flask API
         console.log("Company added successfully!");
       } else {
-        // Handle errors here
         console.error("An error occurred.");
       }
     } catch (error) {
@@ -65,7 +68,6 @@ export default function Onboarding() {
     }
   };
   
-  // ... (rest of your component)
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen mx-auto">
