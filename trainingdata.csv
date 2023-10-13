@@ -1,0 +1,1001 @@
+age,YOE,college_bool,uni_tier,industry,sector,valuation,growth_rate,funding_round,investor_no,good_fit_bool,acquisition_chance,failure_chance,exit_amt,exit_time_period_yrs,potential_TAM,prob_2x_1yr,prob_2x_5yr,prob_10x_1yr,prob_10x_5yr
+56,16,true,2,n/a,n/a,36327571,51,4,9,false,47,4,6455057,5,53024843,84,47,25,69
+70,11,true,3,Semiconductors,Technology,45604015,93,2,10,true,29,24,86233259,3,16089735,1,58,17,17
+68,19,false,1,Commercial Banks,Finance,42680797,41,2,6,true,22,27,85551062,5,53142643,66,86,12,66
+63,0,false,3,Specialty Chemicals,Capital Goods,31556869,33,1,2,false,20,17,68841148,3,80745506,12,95,10,5
+65,20,true,1,Medical/Dental Instruments,Health Care,28860526,87,1,0,true,32,17,71925791,5,24034671,1,99,42,13
+39,7,true,3,Electrical Products,Consumer Durables,12328626,87,3,7,false,41,22,23425387,3,94874399,75,84,34,6
+49,12,true,3,n/a,n/a,13105609,24,1,6,true,36,8,51873296,4,80140257,10,49,40,20
+46,18,false,2,Industrial Specialties,Health Care,19158278,100,3,2,false,47,9,61145352,3,48355706,91,91,36,80
+18,6,true,3,n/a,n/a,5783870,49,2,9,true,2,28,48368786,4,72043264,86,81,6,56
+40,6,true,3,Business Services,Finance,30103343,39,4,7,false,52,26,55662295,5,22300170,6,92,27,14
+62,2,false,3,n/a,n/a,11956808,52,4,3,false,12,32,66075601,3,73766728,14,86,38,90
+54,18,false,1,Major Banks,Finance,43609940,35,4,6,false,46,11,15640025,3,57097004,43,95,7,58
+74,12,false,3,Clothing/Shoe/Accessory Stores,Consumer Services,39256274,73,4,2,false,23,23,37193866,4,11989032,33,43,14,75
+36,16,true,1,Agricultural Chemicals,Basic Industries,157651,27,3,4,false,14,29,97054975,5,77788170,35,93,6,91
+61,8,true,1,n/a,n/a,8056449,66,4,0,false,54,25,52344722,3,15192184,55,75,23,90
+23,14,false,2,Business Services,Miscellaneous,38688902,65,4,6,false,68,12,77697986,5,83885453,39,62,7,60
+74,11,true,3,Industrial Machinery/Components,Capital Goods,24970304,44,3,1,true,7,2,43967388,4,7573622,74,58,42,12
+26,5,false,3,Publishing,Miscellaneous,16769825,8,3,9,true,17,7,74454088,5,15132082,23,94,37,39
+53,4,true,3,n/a,n/a,44364880,15,3,5,true,11,7,67013592,5,11298343,20,40,44,43
+38,18,true,1,Electric Utilities: Central,Public Utilities,38991433,16,3,7,false,7,18,57229647,4,62962426,16,45,45,40
+22,5,false,3,n/a,n/a,39848545,38,3,5,true,43,26,39212111,5,20954817,64,48,42,39
+70,16,false,3,n/a,n/a,44835398,1,1,8,true,61,15,8188554,4,27863525,19,79,12,95
+46,10,false,2,Real Estate Investment Trusts,Consumer Services,11806745,97,3,9,false,51,13,46730084,4,99248701,67,64,16,64
+33,4,true,1,Precious Metals,Basic Industries,844710,1,2,4,true,35,15,53506436,5,77446579,25,82,10,30
+58,2,true,2,Automotive Aftermarket,Consumer Durables,24366086,68,3,10,true,4,34,43821820,4,51080336,2,53,7,46
+66,7,true,3,Major Banks,Finance,43028163,55,1,1,false,33,24,48413502,3,2439895,46,78,16,8
+38,5,true,3,Investment Bankers/Brokers/Service,Finance,10265828,28,4,0,false,50,14,16182721,3,99297986,59,99,24,63
+31,20,true,1,Finance: Consumer Services,Finance,40831539,85,4,8,false,31,16,86964759,5,24217403,5,94,44,85
+27,18,false,3,Marine Transportation,Transportation,48683819,47,2,6,false,3,20,19343750,3,93091702,58,50,35,75
+18,7,false,1,n/a,n/a,39048546,40,2,1,true,30,3,69812512,3,75507757,39,40,25,80
+52,13,true,1,n/a,n/a,12893428,37,4,2,true,22,4,19494174,5,66464719,3,35,29,30
+50,10,true,3,Hospital/Nursing Management,Health Care,48552820,90,3,6,true,13,15,90423399,5,61049382,37,74,16,57
+21,16,true,2,Natural Gas Distribution,Public Utilities,14712499,12,2,2,false,30,11,81558407,5,8861145,50,32,9,24
+19,10,false,3,n/a,n/a,47791900,67,2,3,true,50,23,69709558,5,50779835,38,49,41,39
+20,5,true,1,Property-Casualty Insurers,Finance,19571176,1,4,4,true,65,8,34502748,5,31979680,44,41,42,9
+70,6,false,2,n/a,n/a,4514710,65,4,0,true,60,3,54618735,5,40747767,80,64,26,93
+37,2,true,2,Television Services,Consumer Services,21734540,74,1,2,true,56,13,92438332,5,99253026,51,99,29,60
+49,4,false,1,Investment Managers,Finance,7225094,7,1,8,false,57,29,41703279,4,70200846,47,79,14,7
+24,15,false,1,n/a,n/a,20111214,73,4,7,false,21,33,60235355,5,82676965,30,34,19,52
+35,12,false,1,Building Products,Capital Goods,44637883,30,2,0,false,56,9,72541181,5,73526983,5,54,37,65
+22,2,true,3,Industrial Machinery/Components,Capital Goods,49000711,15,1,3,true,51,12,81493425,5,95616033,56,78,41,89
+20,6,false,1,n/a,n/a,11615173,40,3,8,true,12,28,28311512,4,98380749,43,76,7,48
+49,13,true,2,Natural Gas Distribution,Public Utilities,12355350,54,1,10,true,58,10,1531485,4,52392478,26,47,8,8
+20,7,false,2,EDP Services,Technology,33875573,36,3,5,true,10,35,36158133,5,9077603,39,88,5,76
+27,5,true,3,Business Services,Finance,18769268,85,1,0,true,17,14,85579406,4,73805870,9,46,21,70
+74,12,true,1,n/a,n/a,24766722,70,2,7,true,2,22,75017642,3,29644477,19,95,11,20
+47,9,false,1,Catalog/Specialty Distribution,Consumer Services,8461801,74,1,5,true,37,5,20101042,3,39791127,42,81,24,95
+26,10,false,2,Food Chains,Consumer Services,7527004,56,2,0,true,57,31,64211567,3,82863824,52,68,33,46
+50,6,false,1,n/a,n/a,19432497,96,3,3,false,23,27,20406495,5,62645598,92,44,35,44
+39,15,true,3,Major Pharmaceuticals,Health Care,17337765,5,3,10,false,1,13,9958251,3,69982588,29,95,33,14
+74,12,true,2,Radio And Television Broadcasting And Communications Equipment,Technology,40185469,73,4,7,true,45,34,30103192,4,52475129,39,74,21,22
+50,10,true,1,Industrial Specialties,Health Care,10538891,77,4,9,false,4,32,9761723,4,26783040,48,97,43,79
+48,18,true,3,Oil & Gas Production,Energy,46990418,80,1,3,true,19,15,55934018,4,43009199,44,52,38,12
+37,11,false,3,n/a,n/a,38934152,67,2,0,false,34,34,71591503,5,94894377,39,44,21,87
+43,3,false,1,n/a,n/a,34631725,88,2,7,false,67,13,90947370,4,71490476,28,80,37,8
+19,7,false,1,n/a,n/a,32804396,55,3,4,false,65,20,97675666,3,92419290,20,62,35,5
+71,11,false,2,Business Services,Miscellaneous,13573584,89,4,10,true,31,10,63298142,3,25913874,88,94,11,76
+22,17,true,1,Computer Software: Prepackaged Software,Technology,34506972,75,3,0,false,34,20,12635329,3,49811726,87,94,11,75
+28,9,true,1,Hospital/Nursing Management,Health Care,16300386,99,1,1,false,41,6,20744294,5,71825791,30,93,13,22
+64,5,false,2,Telecommunications Equipment,Consumer Durables,27719496,92,2,9,true,24,23,39982379,5,86842740,15,48,27,59
+52,3,false,2,Computer Software: Prepackaged Software,Technology,36649937,84,2,1,false,18,31,5651205,5,61456349,49,100,13,12
+52,5,true,2,Major Pharmaceuticals,Health Care,45173620,76,1,1,true,61,25,57751980,4,60589445,24,47,22,63
+45,18,true,3,n/a,n/a,4373688,50,2,9,false,15,28,32870599,3,7942303,16,58,14,31
+49,0,true,1,Property-Casualty Insurers,Finance,26902150,25,4,6,false,39,4,73351635,4,5023451,56,83,17,95
+34,4,true,3,Department/Specialty Retail Stores,Consumer Services,15296308,92,4,1,true,6,19,76358059,3,86527061,6,54,24,30
+31,14,true,3,Major Pharmaceuticals,Health Care,237308,50,2,1,true,63,31,83880441,5,88497342,17,50,35,39
+50,1,false,1,n/a,n/a,9001323,29,1,5,true,48,20,42527953,5,39717863,46,44,17,10
+60,14,false,3,Major Pharmaceuticals,Health Care,14639581,12,1,9,true,46,23,30921007,3,85353923,48,58,28,35
+75,5,true,1,Property-Casualty Insurers,Finance,575336,91,3,9,false,47,5,92445201,4,24154668,47,82,44,35
+57,16,true,3,Business Services,Miscellaneous,32925951,50,1,5,true,35,7,73518706,5,18348070,57,41,40,61
+26,2,false,3,n/a,n/a,36272840,7,4,0,true,27,20,11964235,4,33916803,22,76,24,16
+34,5,true,3,Real Estate Investment Trusts,Consumer Services,27617082,65,1,5,false,4,10,40551085,4,81827673,90,91,24,73
+51,4,false,3,Savings Institutions,Finance,46043752,63,4,6,false,8,18,89473099,5,85678220,11,37,20,56
+73,9,false,1,Real Estate Investment Trusts,Consumer Services,27188094,22,2,3,true,61,11,83952827,4,99023234,78,97,14,66
+69,9,false,2,Electrical Products,Capital Goods,42492711,78,4,10,true,25,18,27825020,5,68494013,73,64,37,21
+31,8,true,2,Major Banks,Finance,3761174,30,1,9,false,68,12,74494060,3,75020013,45,85,6,9
+40,4,true,3,Business Services,Finance,30719224,71,3,1,false,21,7,20577768,5,71927880,90,48,42,73
+28,15,false,1,Biotechnology: Commercial Physical & Biological Resarch,Health Care,2915630,54,4,6,true,27,1,2395701,3,49076450,9,96,29,18
+65,17,true,2,Finance: Consumer Services,Finance,23746572,95,3,7,true,46,24,48758913,4,46885378,52,90,23,87
+41,12,true,3,Services-Misc. Amusement & Recreation,Consumer Services,44497022,32,3,6,false,12,10,57941614,5,65997366,88,53,28,16
+62,16,true,2,Marine Transportation,Transportation,17788613,12,1,8,true,49,16,4850397,3,18251260,75,95,37,43
+26,3,false,3,Industrial Machinery/Components,Technology,23621151,34,3,5,false,1,20,45140785,3,79950633,91,40,29,86
+72,0,true,2,Paints/Coatings,Basic Industries,34324351,83,3,5,false,35,27,26528521,5,25627410,59,79,23,8
+52,15,false,2,Industrial Machinery/Components,Capital Goods,43083683,87,4,8,true,30,17,86587247,3,22108093,75,59,33,38
+29,11,true,1,n/a,n/a,23368071,10,2,9,false,33,24,43305217,3,98957650,94,69,12,16
+49,15,false,1,Semiconductors,Technology,17158768,100,1,6,true,51,5,85917481,4,88145598,22,59,27,55
+49,17,false,2,Savings Institutions,Finance,977103,33,2,1,false,24,1,19552504,5,30473517,18,97,39,42
+49,11,true,3,Broadcasting,Consumer Services,19774798,57,3,5,false,3,29,31224581,4,52729991,32,72,34,81
+74,12,false,2,Biotechnology: Laboratory Analytical Instruments,Capital Goods,48862300,70,4,5,true,15,7,38439819,4,91773594,76,62,12,37
+35,5,true,1,Oil & Gas Production,Energy,22234243,5,4,2,true,7,29,24587334,4,81255072,31,70,30,37
+65,15,true,3,Shoe Manufacturing,Consumer Non-Durables,9045854,69,1,4,false,67,25,39216467,4,15652313,82,36,21,17
+54,11,false,3,n/a,n/a,17097890,45,4,0,true,52,29,84407462,3,38327406,94,30,24,21
+55,4,false,2,Major Banks,Finance,47421957,26,4,3,false,68,15,89610742,5,78437453,72,31,13,67
+70,8,false,2,Integrated oil Companies,Energy,17719985,57,3,9,false,54,20,57245936,5,90139497,74,41,7,27
+67,17,true,1,Computer Manufacturing,Technology,14920885,81,2,8,false,36,27,22563654,5,80836232,95,68,32,79
+45,11,false,1,Telecommunications Equipment,Public Utilities,10380726,45,3,2,false,44,26,10675676,4,12328012,84,58,43,69
+23,10,true,1,Specialty Foods,Consumer Non-Durables,36435823,96,1,8,true,47,25,18848790,4,5283590,92,87,5,24
+71,9,false,1,Broadcasting,Consumer Services,24920157,26,3,5,false,32,20,28030389,3,46476748,71,86,12,84
+57,13,false,2,Television Services,Consumer Services,33842157,28,3,6,false,67,4,4040064,5,74404442,66,37,13,31
+72,2,false,2,n/a,n/a,20375658,51,3,1,true,20,26,58370653,3,99056781,17,90,27,24
+61,19,false,1,Publishing,Consumer Durables,15165804,37,4,5,false,42,33,60358420,5,68774130,6,48,28,13
+71,14,true,2,Biotechnology: Electromedical & Electrotherapeutic Apparatus,Health Care,7701849,24,3,0,false,45,32,43473918,5,66256858,34,56,20,94
+19,19,true,2,n/a,n/a,8651791,88,1,10,true,7,1,28525609,5,18697887,51,92,37,77
+22,0,true,3,Major Pharmaceuticals,Health Care,19220745,45,1,3,false,11,18,3578296,5,14310360,6,85,12,40
+37,4,false,1,Industrial Specialties,Health Care,39503472,33,4,0,false,11,6,11273110,5,26056183,39,81,19,29
+21,20,false,3,Major Banks,Finance,29858649,55,3,9,false,31,18,97804019,4,64068543,87,41,29,62
+64,7,false,2,Industrial Machinery/Components,Technology,5881128,93,2,3,false,27,27,33510121,4,74432175,2,54,20,95
+63,13,true,2,n/a,n/a,44378170,50,4,3,true,28,15,59392909,5,70989756,32,61,43,21
+33,18,false,3,"Computer Software: Programming, Data Processing",Technology,41422969,14,2,7,false,4,8,15391116,4,36298538,15,89,24,75
+59,9,true,2,Oil & Gas Production,Energy,14419445,88,2,4,false,36,26,39259635,5,77858280,42,96,12,13
+18,9,true,2,Major Pharmaceuticals,Health Care,46513046,19,1,1,false,55,24,83969304,3,64907460,66,46,34,7
+60,15,true,2,Real Estate Investment Trusts,Consumer Services,22111603,98,4,1,false,24,3,30933925,3,62043455,20,72,24,60
+73,8,false,1,Packaged Foods,Consumer Non-Durables,20367031,13,3,10,false,22,19,99457980,5,63896428,76,82,36,55
+46,8,false,2,Mining & Quarrying of Nonmetallic Minerals (No Fuels),Basic Industries,48315584,17,2,3,true,41,11,41134608,5,31203308,4,72,32,62
+33,20,true,3,Business Services,Finance,35753080,71,4,5,false,43,21,46929407,3,68972149,40,75,9,46
+48,12,true,3,n/a,n/a,48052593,65,1,8,true,17,10,2874844,5,94795554,18,58,41,78
+61,1,false,3,Business Services,Finance,49113687,60,1,4,true,62,12,38933863,3,60243180,81,88,37,57
+19,16,true,1,n/a,n/a,33781430,16,3,9,true,44,6,3635607,5,43000243,6,55,31,81
+50,11,true,2,Major Banks,Finance,12893304,54,2,5,false,59,3,55380520,4,40710253,23,73,7,34
+42,12,true,3,Investment Managers,Finance,46885213,75,4,4,true,51,18,13974237,5,15563422,22,95,7,63
+70,8,false,3,n/a,n/a,11088231,85,4,6,true,34,10,31813834,3,22651395,48,88,14,79
+19,20,true,3,n/a,n/a,27803126,61,2,2,true,40,18,46081127,5,24705265,52,40,12,68
+66,2,false,3,Oil Refining/Marketing,Energy,14364689,19,2,0,true,60,17,5879478,3,62780437,45,97,42,71
+52,11,false,2,Major Pharmaceuticals,Health Care,11020489,86,4,0,false,55,18,71710555,4,97145043,36,45,17,28
+19,5,true,2,Biotechnology: Commercial Physical & Biological Resarch,Health Care,39981691,97,1,9,true,14,24,3691515,5,43999103,76,42,20,63
+26,10,false,1,Steel/Iron Ore,Basic Industries,3822265,67,1,6,false,38,11,12504085,5,4422524,65,33,40,79
+19,6,true,2,Computer Software: Prepackaged Software,Technology,33874052,21,4,9,false,67,10,35668440,4,7291241,70,48,15,43
+46,17,true,1,n/a,n/a,27084421,31,2,2,false,32,22,84986578,4,73723181,36,91,8,71
+64,19,false,1,Major Pharmaceuticals,Health Care,9041825,65,2,0,true,69,7,92815438,3,10574093,49,50,6,58
+56,13,true,1,Television Services,Consumer Services,12880003,78,1,7,true,1,2,61625764,3,10788867,6,87,44,49
+36,0,false,3,Environmental Services,Consumer Non-Durables,36601670,97,2,9,true,15,7,14636020,3,33829256,48,98,38,14
+33,2,true,3,Plastic Products,Consumer Non-Durables,47323895,68,4,0,true,62,34,8545245,5,28596320,85,34,22,90
+18,15,false,1,Professional Services,Technology,28714844,6,1,10,false,50,6,86870067,4,15626797,83,59,42,62
+51,11,false,3,EDP Services,Technology,37546341,47,3,5,false,9,8,4952128,3,57926245,11,58,6,22
+20,11,true,2,Radio And Television Broadcasting And Communications Equipment,Technology,49598773,2,3,4,true,51,27,47507619,3,14903672,83,83,17,69
+25,14,false,2,Property-Casualty Insurers,Finance,10763511,73,4,2,true,34,24,61916900,5,38463915,60,80,28,43
+52,2,true,1,Major Banks,Finance,6193407,92,3,2,true,35,33,30612257,4,60381577,65,69,25,10
+48,6,false,2,n/a,n/a,8962377,55,4,6,false,53,2,63718017,4,80992632,30,84,11,6
+47,13,false,1,Metal Fabrications,Capital Goods,30324757,83,3,9,true,55,19,56493074,5,29801230,82,34,14,73
+46,12,false,2,n/a,n/a,24709558,45,1,4,false,9,23,64151323,5,38673319,25,82,22,41
+63,9,false,1,Other Specialty Stores,Consumer Services,29329158,96,1,3,true,55,32,57757376,3,53419561,21,88,19,57
+72,18,false,1,Water Supply,Public Utilities,31931202,93,2,6,true,43,26,28512033,4,89724555,10,39,27,62
+37,8,false,2,Major Banks,Finance,41982029,57,1,9,true,1,9,57771837,5,32526105,33,70,32,41
+48,12,true,1,n/a,n/a,35404040,96,1,8,false,35,22,4764346,3,96629106,57,93,31,71
+53,14,false,3,n/a,n/a,30552817,55,1,2,false,36,23,3477471,5,77408933,43,59,6,11
+22,14,false,1,Banks,Finance,27050294,24,1,4,true,69,18,99975496,4,24441379,37,30,18,69
+24,4,false,2,n/a,n/a,8816514,60,1,7,false,4,17,37857005,3,77736890,29,33,21,33
+19,18,false,3,Computer Software: Prepackaged Software,Technology,37461763,4,2,5,true,58,27,33725591,3,43363338,80,56,24,13
+63,8,true,3,n/a,n/a,35983253,76,2,3,true,10,14,21897808,5,45849870,47,62,36,28
+49,17,true,2,n/a,n/a,20857471,45,1,5,false,15,28,1643332,5,71552639,10,74,21,24
+68,6,false,3,Hotels/Resorts,Consumer Services,35187751,64,4,3,true,57,10,73021494,3,73690314,56,94,20,12
+22,20,false,2,Hotels/Resorts,Consumer Services,9790316,55,1,3,false,17,6,89629872,4,96108644,90,90,29,68
+24,7,false,2,n/a,n/a,42595753,47,4,0,false,11,3,22257311,5,3436308,87,34,19,33
+31,15,false,1,Auto Parts:O.E.M.,Capital Goods,7497409,86,1,3,true,29,19,21016702,5,72251899,49,83,39,61
+66,4,false,2,Office Equipment/Supplies/Services,Miscellaneous,37631536,13,2,9,false,64,9,51397030,5,98363974,8,50,6,28
+75,11,false,1,Newspapers/Magazines,Consumer Services,41738056,91,3,7,false,38,26,49623599,5,2655726,25,43,12,27
+48,2,false,3,Finance: Consumer Services,Finance,49538242,100,3,0,true,68,27,15169109,4,94458329,81,38,17,66
+72,12,false,3,Major Pharmaceuticals,Health Care,26209362,47,2,7,false,56,14,50018890,3,18218975,75,91,10,44
+24,14,false,2,Industrial Machinery/Components,Capital Goods,7107402,15,3,2,false,62,30,52165010,4,26678925,70,65,17,23
+63,0,true,1,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,14429355,46,4,3,false,28,27,9196396,4,92040626,18,94,34,93
+35,0,false,3,Oil & Gas Production,Energy,31473037,62,3,5,false,40,29,7295936,3,10973734,45,58,10,35
+41,8,true,3,Business Services,Finance,14636920,19,4,1,true,26,8,65722772,5,12341273,91,41,12,37
+55,6,true,3,Television Services,Consumer Services,7348930,2,1,8,false,63,4,63565315,4,53297972,75,80,5,79
+38,3,true,2,Major Pharmaceuticals,Health Care,10213020,31,4,6,false,63,28,72808522,4,808502,14,35,30,15
+51,1,true,1,Major Pharmaceuticals,Health Care,18324665,80,4,9,false,16,29,49293358,5,92758199,74,32,19,9
+41,10,true,2,n/a,n/a,46225088,95,3,1,true,39,28,40481337,3,65671304,24,45,36,60
+47,10,true,3,Water Supply,Public Utilities,20779853,69,4,4,false,49,27,63429765,4,53812425,59,81,33,86
+39,9,false,2,Medical Specialities,Health Care,45545939,58,4,7,true,57,24,62848662,5,8718201,62,54,15,48
+34,13,true,2,Auto Manufacturing,Capital Goods,36902462,75,2,2,true,24,19,42446794,4,71165875,57,96,39,50
+46,11,true,3,Oil & Gas Production,Energy,34203017,7,3,7,false,21,15,74576833,3,29728659,64,85,12,80
+46,17,true,1,Major Banks,Finance,46112810,43,3,1,false,10,21,23075566,4,12145902,15,100,19,24
+26,15,true,1,Real Estate Investment Trusts,Consumer Services,44634660,95,3,8,false,56,19,26890627,5,79253963,11,52,28,50
+69,8,false,1,Real Estate Investment Trusts,Consumer Services,48608131,34,2,8,false,25,9,64715963,5,82187340,48,66,17,16
+29,9,true,2,Semiconductors,Technology,20210162,74,1,0,true,6,32,38078446,3,72920448,50,34,32,51
+63,6,true,1,n/a,n/a,11498602,81,4,3,false,62,34,7855983,4,44439713,73,62,12,88
+41,16,false,3,EDP Services,Technology,41748310,22,4,0,true,27,3,22814531,3,48132457,69,97,26,61
+55,9,false,1,Property-Casualty Insurers,Finance,49805633,67,1,6,true,47,14,11152616,3,26128519,80,45,25,53
+25,7,false,1,Telecommunications Equipment,Consumer Services,6702214,93,4,0,false,64,20,53720030,4,37574786,20,57,29,47
+28,1,true,2,Air Freight/Delivery Services,Transportation,34325146,71,3,8,true,28,13,94952241,3,88379720,17,98,44,21
+20,6,true,3,EDP Services,Technology,44983204,93,4,0,true,40,21,36958277,4,26692532,18,34,24,78
+22,7,true,3,n/a,n/a,48552882,95,2,5,true,18,18,53497641,5,31226758,12,40,23,39
+53,19,false,2,Semiconductors,Technology,8195797,63,3,1,false,54,31,34413118,4,86090689,9,91,17,63
+73,4,false,1,Industrial Machinery/Components,Energy,20908354,14,4,3,true,24,1,87865401,4,7681546,32,35,39,63
+59,18,true,1,Savings Institutions,Finance,39380577,70,1,7,false,38,32,49596014,5,10777819,72,49,11,30
+62,0,true,2,Hotels/Resorts,Consumer Services,40688613,33,2,5,false,39,33,14207322,5,89420178,8,95,6,94
+30,17,true,1,Major Banks,Finance,26385735,97,2,4,false,39,4,2838914,4,75494050,9,48,42,13
+20,20,true,1,n/a,n/a,47622465,78,3,1,false,9,20,48595117,3,91185056,23,79,30,24
+31,20,true,3,Major Pharmaceuticals,Health Care,31502478,51,4,2,false,55,18,75916230,5,78476691,70,66,42,10
+31,14,true,2,Other Consumer Services,Consumer Services,5491823,97,3,9,false,48,15,95152183,4,60018414,71,32,35,89
+63,2,false,1,n/a,n/a,41742935,37,1,3,true,36,13,72863864,3,48425493,44,96,37,8
+52,2,true,2,Miscellaneous manufacturing industries,Consumer Durables,29226692,86,2,2,true,7,28,48080627,4,30903222,85,33,36,21
+40,4,true,3,n/a,n/a,19614843,25,1,7,true,46,34,62806319,5,24296409,28,39,22,70
+34,8,false,1,Television Services,Consumer Services,35282469,9,1,7,false,50,21,89511892,5,93305958,36,89,29,30
+19,0,false,2,Department/Specialty Retail Stores,Consumer Services,2971751,36,3,7,false,58,14,62986115,5,69200805,93,72,39,82
+19,9,true,1,Industrial Machinery/Components,Capital Goods,22100655,98,4,4,true,31,34,3806635,5,43496909,7,42,17,21
+50,13,true,3,n/a,n/a,44701710,35,2,10,true,12,18,3756708,5,66374853,29,30,41,88
+67,16,true,1,Natural Gas Distribution,Public Utilities,47233338,97,3,7,false,41,22,3482504,3,55733049,9,30,43,52
+71,19,false,2,Savings Institutions,Finance,2184025,36,4,1,true,10,34,36360513,3,91398683,52,60,22,30
+69,7,true,3,Oil & Gas Production,Energy,41558967,94,1,0,true,41,3,7204111,4,62324120,6,93,29,30
+26,13,true,2,Semiconductors,Technology,18673785,65,1,8,false,30,14,88287267,3,75231140,84,60,23,51
+43,10,true,3,n/a,n/a,40851435,25,2,2,false,18,4,16848764,4,10082361,26,90,17,73
+59,17,true,3,Major Banks,Finance,31380574,85,3,5,false,45,2,23122240,4,25317232,31,44,31,74
+48,0,false,3,n/a,n/a,4119296,6,4,7,false,50,25,41528498,5,24340255,10,77,30,34
+45,14,true,3,Miscellaneous manufacturing industries,Consumer Durables,5065889,81,1,0,true,49,23,17799039,4,29914996,6,36,12,37
+36,5,false,3,n/a,n/a,48140677,10,1,3,false,1,23,90655128,4,25924758,10,100,8,37
+32,8,true,1,n/a,n/a,8830518,84,3,6,true,52,11,30041858,4,99116085,62,54,44,62
+68,13,true,1,Computer Software: Prepackaged Software,Technology,8805070,37,3,2,true,45,16,62306504,4,29954204,7,78,20,17
+43,18,true,3,Major Pharmaceuticals,Health Care,41104669,91,3,1,true,68,6,13392221,3,76170951,56,65,37,13
+19,0,false,2,Investment Bankers/Brokers/Service,Finance,11025663,90,3,10,true,58,27,71324257,3,86263554,68,95,19,56
+53,19,false,1,Oilfield Services/Equipment,Energy,26924112,89,3,3,true,54,18,69911471,4,43974231,85,99,37,65
+24,12,true,3,Power Generation,Public Utilities,29993465,36,2,5,false,2,28,30485570,3,33997264,30,45,40,10
+47,17,true,3,n/a,n/a,20617803,5,2,0,true,61,17,68139552,3,75775331,74,91,34,80
+48,9,false,1,Hotels/Resorts,Consumer Services,41862677,45,2,8,true,49,19,69864838,3,63516657,36,41,37,83
+58,13,true,2,Real Estate Investment Trusts,Consumer Services,107806,18,3,9,true,45,23,24668243,4,6720023,47,73,25,48
+75,11,false,2,Real Estate,Finance,45874572,32,3,6,false,37,35,10860487,5,77814148,29,75,10,42
+74,17,false,3,Major Banks,Finance,47590630,56,4,9,true,8,7,13608721,4,22540252,77,73,44,8
+61,6,false,1,Industrial Machinery/Components,Capital Goods,31329113,57,4,1,false,18,5,79557943,3,46223561,87,40,21,30
+64,20,true,3,Beverages (Production/Distribution),Consumer Non-Durables,36557236,63,1,7,true,38,22,1254262,5,32118269,94,54,17,93
+72,9,true,1,Hotels/Resorts,Consumer Services,392389,27,2,2,true,66,25,88573232,5,57593264,85,78,11,11
+59,8,true,3,Services-Misc. Amusement & Recreation,Consumer Services,25641635,100,2,1,true,59,32,83346844,5,5799738,53,89,6,75
+44,3,true,1,n/a,n/a,4844927,96,2,4,false,38,28,15913007,5,62575392,49,67,25,38
+37,8,false,1,Savings Institutions,Finance,38245093,60,3,0,false,21,5,22017964,5,59279901,76,31,24,16
+57,20,false,2,Integrated oil Companies,Energy,8457091,14,2,0,false,30,34,70680261,4,64389933,22,57,7,66
+40,15,false,2,Computer Manufacturing,Technology,8077865,81,1,0,false,3,17,57229150,5,6447725,25,75,18,86
+51,9,false,3,Medical/Nursing Services,Health Care,31022122,66,1,6,true,9,11,62106401,5,18462432,14,93,16,88
+73,0,false,1,Computer Software: Prepackaged Software,Technology,22102778,16,2,10,true,17,9,84677525,3,46679350,83,52,20,37
+46,10,false,3,Major Pharmaceuticals,Health Care,34026009,25,3,8,false,67,6,80405748,5,96944579,21,60,32,91
+73,16,true,2,Homebuilding,Capital Goods,1107005,27,2,10,false,49,34,85157148,5,51798119,8,71,30,59
+22,6,true,3,n/a,n/a,29129465,55,1,5,false,20,32,25437911,3,28901790,37,46,26,76
+43,8,false,2,Computer Software: Prepackaged Software,Technology,8757694,73,2,6,false,39,8,57561249,3,47218195,83,59,25,84
+49,5,true,1,n/a,n/a,22978028,34,3,5,true,44,19,86171999,4,22304437,84,55,32,57
+72,10,false,3,Railroads,Transportation,28676895,86,1,6,false,11,28,50354023,4,54354152,74,59,16,70
+43,7,false,1,Oilfield Services/Equipment,Energy,36923507,73,3,9,false,3,23,58015589,3,19254331,57,83,39,60
+43,8,false,3,Telecommunications Equipment,Public Utilities,29543247,40,2,10,true,19,29,66909995,3,21445446,53,94,14,38
+41,0,true,3,n/a,n/a,35200856,84,4,7,false,11,21,46624426,4,95199560,27,98,16,13
+41,20,true,1,Computer Software: Prepackaged Software,Technology,23408874,52,3,3,true,56,21,64754461,4,96030318,58,53,39,65
+30,6,false,2,Oil Refining/Marketing,Transportation,12504980,97,2,10,false,13,30,17146050,3,62380528,33,40,37,55
+21,0,true,2,n/a,n/a,28122991,41,2,3,false,35,21,86114337,4,90775134,14,69,16,11
+36,4,false,3,Other Consumer Services,Consumer Services,15336633,70,2,6,true,21,22,23265262,4,81891110,37,30,21,19
+63,7,false,2,Television Services,Consumer Services,5708303,22,1,3,true,69,3,93076946,3,72302181,42,40,25,36
+20,13,false,2,Industrial Machinery/Components,Miscellaneous,46531799,38,4,8,true,63,17,5984966,5,84074184,92,75,10,68
+18,9,false,2,Semiconductors,Technology,13636780,9,2,9,true,14,16,34921392,4,99494174,26,84,5,35
+28,20,false,3,Packaged Foods,Consumer Non-Durables,33052522,76,3,7,false,67,24,10807559,4,90764770,77,74,29,32
+22,14,false,3,Major Banks,Finance,26512041,46,4,1,true,40,24,1332826,3,32049131,31,64,34,22
+73,18,true,3,n/a,n/a,38236345,79,1,0,false,55,21,5052961,3,78338339,49,47,12,5
+65,8,true,1,Telecommunications Equipment,Technology,16751509,71,4,8,false,57,10,56912372,3,90434879,16,79,6,92
+19,11,true,1,Computer Software: Prepackaged Software,Technology,37109366,56,1,6,true,7,35,92705518,4,57110162,76,73,35,31
+18,17,true,1,Business Services,Miscellaneous,32466657,40,2,1,true,21,11,11422861,5,61070585,67,65,11,38
+37,16,false,2,Auto Parts:O.E.M.,Capital Goods,48957340,100,4,10,false,68,17,38359286,5,47618490,82,61,20,7
+37,15,true,2,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,23315372,65,4,3,false,59,29,47638775,4,38501601,22,75,13,59
+25,18,false,3,n/a,n/a,34572248,20,1,2,false,11,13,47199265,5,62484776,39,48,40,87
+36,15,false,3,Restaurants,Consumer Services,47758244,37,2,5,true,42,34,9149723,4,86797212,10,44,43,29
+51,6,true,2,n/a,n/a,43929273,19,4,4,false,53,3,18670750,4,80507351,1,62,19,81
+71,0,false,3,Major Banks,Finance,13063760,40,2,1,false,63,34,57873276,4,41299445,14,30,29,86
+53,7,false,1,Major Banks,Finance,9135804,92,3,8,true,37,35,81881197,4,81348571,41,91,44,24
+69,1,false,2,Real Estate Investment Trusts,Consumer Services,22218282,74,4,9,false,47,24,12078448,5,38456560,85,74,45,24
+49,0,false,3,Industrial Machinery/Components,Capital Goods,19296471,78,2,0,true,64,29,79845152,3,57071740,82,77,11,44
+42,13,false,1,Major Banks,Finance,15652079,2,4,1,true,64,3,97036140,3,87557597,46,75,34,60
+19,10,false,3,n/a,n/a,22074583,84,3,9,true,27,30,96192152,5,89483494,38,34,44,37
+56,16,true,1,n/a,n/a,33465072,16,4,0,true,29,7,83633196,4,63679426,53,92,25,82
+36,11,true,2,Power Generation,Public Utilities,26968129,68,2,7,true,63,5,33811206,5,34377131,57,81,7,66
+63,12,true,2,Industrial Machinery/Components,Energy,35896643,18,4,8,true,14,30,92754577,5,9819117,22,88,24,91
+47,20,false,2,Environmental Services,Basic Industries,13359344,67,1,4,false,29,2,49356095,4,37902374,48,36,33,45
+74,20,false,3,n/a,n/a,22818896,68,2,4,false,4,22,42791849,3,20647166,56,70,8,11
+48,2,true,3,Major Pharmaceuticals,Health Care,33135025,14,4,2,true,5,22,2641562,3,23338579,66,54,25,76
+23,6,true,3,Rental/Leasing Companies,Consumer Services,29826661,92,4,9,false,41,33,17838708,5,91985981,40,33,28,90
+58,12,true,2,Meat/Poultry/Fish,Consumer Non-Durables,5680079,68,3,3,true,66,7,15734240,4,4791951,16,72,35,79
+64,13,false,3,Commercial Banks,Finance,35756626,5,4,5,false,52,32,61171643,4,64982965,32,60,20,83
+37,4,true,2,n/a,n/a,44317981,9,1,4,true,61,35,73698397,3,71644405,86,36,20,52
+29,2,false,2,Major Banks,Finance,12504278,99,3,10,false,24,25,66902102,3,17610035,8,56,32,60
+53,10,false,1,Construction/Ag Equipment/Trucks,Capital Goods,40377605,19,1,6,true,57,29,69287696,4,16580580,74,82,38,89
+27,12,true,1,Trucking Freight/Courier Services,Transportation,12666661,100,1,1,false,1,35,63513552,3,2608292,15,100,44,92
+53,15,true,1,n/a,n/a,937393,73,1,0,false,60,22,63665809,3,97778025,42,63,8,7
+40,3,true,2,n/a,n/a,18624291,50,1,1,false,61,8,89040782,3,15054923,56,61,28,54
+30,9,false,2,Trucking Freight/Courier Services,Transportation,4382119,4,3,10,false,20,19,1191046,3,54078510,50,84,31,15
+65,10,true,1,Industrial Machinery/Components,Energy,13307130,98,4,2,true,39,13,24977238,4,11515669,18,55,23,76
+73,20,true,2,Oil & Gas Production,Energy,2187137,49,3,9,false,10,13,17806378,3,64057529,30,32,30,26
+65,0,false,2,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,3735825,58,3,0,true,63,28,8507292,5,80816195,56,32,7,65
+61,19,true,2,n/a,n/a,38620454,42,1,3,true,41,21,74424891,5,70429740,74,31,29,45
+19,11,false,1,Telecommunications Equipment,Consumer Services,13072736,70,4,9,true,13,19,31496659,4,22168502,44,85,10,93
+38,18,true,1,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,41645048,66,1,7,true,24,4,49382486,5,18072038,93,75,20,38
+34,0,false,3,Savings Institutions,Finance,46358842,10,3,4,true,62,3,34797242,3,77113458,3,95,19,24
+47,8,false,1,Restaurants,Consumer Services,34535490,34,2,7,false,67,32,12943547,5,51825464,39,33,21,54
+61,10,false,2,Industrial Machinery/Components,Capital Goods,13783234,47,1,0,false,36,4,85214157,4,41410363,10,49,7,22
+48,16,false,3,Trucking Freight/Courier Services,Transportation,9461910,85,2,3,true,41,6,35432578,5,81117982,30,95,39,95
+20,8,true,2,Business Services,Miscellaneous,19956625,51,4,2,false,23,25,61890038,3,2774303,70,56,44,22
+21,19,false,1,Farming/Seeds/Milling,Consumer Non-Durables,40088103,83,2,2,false,36,3,40639688,3,55292609,24,53,45,8
+46,17,true,1,n/a,n/a,48309466,41,1,8,true,35,6,9568312,5,91303875,21,42,31,88
+46,4,true,3,Other Consumer Services,Consumer Services,3670972,93,3,7,false,59,30,49393080,3,2035552,63,69,43,62
+21,11,false,1,Biotechnology: Commercial Physical & Biological Resarch,Health Care,42587327,48,4,1,true,61,1,48979740,5,62754191,40,73,11,63
+57,18,false,1,Industrial Machinery/Components,Capital Goods,25177541,28,2,2,false,23,24,9330639,4,61851382,7,89,33,80
+41,15,true,1,Major Banks,Finance,37855020,13,1,5,true,57,29,92389136,4,29977323,19,74,36,86
+19,19,false,2,Electrical Products,Technology,32876775,15,4,3,true,53,4,21414546,5,93371048,42,90,26,43
+31,11,false,1,Professional Services,Technology,19985379,30,4,10,false,62,24,70979583,3,67928345,56,63,9,47
+49,11,true,2,Major Banks,Finance,27437350,25,1,6,false,23,30,43772049,3,28376451,50,45,31,31
+57,5,true,2,Real Estate,Finance,5902736,40,4,9,true,66,7,3877329,4,84902995,38,79,45,14
+44,15,false,1,Oil & Gas Production,Public Utilities,11507661,68,1,3,false,17,25,58387984,5,82330326,89,91,40,68
+67,6,true,2,Electric Utilities: Central,Energy,11826359,46,3,8,true,15,1,65520879,5,37724052,22,76,32,74
+64,19,false,2,Containers/Packaging,Consumer Durables,32978830,40,4,4,false,42,34,26847828,3,21043263,12,69,12,64
+31,12,false,3,Clothing/Shoe/Accessory Stores,Consumer Services,45036918,29,1,5,true,22,19,42275031,5,93288931,15,48,26,7
+27,13,true,3,Banks,Finance,43274089,52,4,7,false,16,12,80159550,3,97804288,49,56,30,46
+49,18,false,2,n/a,n/a,1829518,1,2,5,false,29,12,35316134,4,25167542,25,69,45,64
+56,6,true,1,Savings Institutions,Finance,39211226,5,4,9,true,30,11,54817061,5,88304378,6,77,22,87
+25,12,true,2,Catalog/Specialty Distribution,Consumer Services,26586917,92,1,5,true,51,6,60819051,4,31997877,16,71,15,87
+34,15,true,1,n/a,n/a,25014539,16,3,1,true,68,30,88447763,4,86540288,89,84,28,28
+67,20,false,1,Industrial Machinery/Components,Capital Goods,45417476,36,4,1,true,34,23,77902144,4,73778498,4,77,18,43
+50,9,false,2,Major Pharmaceuticals,Health Care,13092550,49,3,0,false,52,9,51836183,3,33866834,69,56,11,30
+48,14,true,3,Computer peripheral equipment,Technology,31982789,35,1,7,false,42,25,83468716,5,2464671,27,40,15,51
+26,1,true,3,Industrial Machinery/Components,Capital Goods,43013066,86,3,1,true,41,18,49167730,5,73788769,51,88,45,43
+36,0,true,3,Savings Institutions,Finance,22432984,57,3,4,true,8,28,46296235,3,63518144,67,36,26,72
+24,2,false,3,Industrial Machinery/Components,Technology,11330872,95,3,10,false,35,11,34079654,4,64497009,44,90,44,39
+23,1,true,2,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,23412583,22,1,0,false,67,15,57449666,5,28397092,26,82,25,56
+21,17,true,3,Major Chemicals,Basic Industries,32884991,59,1,7,false,9,20,79656495,5,76183227,17,88,26,20
+25,20,true,3,Real Estate,Consumer Services,26955039,59,1,6,false,57,13,87707266,3,41170102,33,88,17,73
+46,18,false,3,Construction/Ag Equipment/Trucks,Capital Goods,28895946,65,1,7,false,44,12,53591389,3,44598794,27,32,5,17
+26,3,true,2,Major Pharmaceuticals,Health Care,39043643,100,2,9,false,49,29,3228384,3,81040373,30,63,13,48
+27,20,false,3,Marine Transportation,Transportation,49806284,4,4,6,true,50,31,11334422,5,34088661,77,96,32,56
+19,13,false,3,Coal Mining,Energy,46915525,86,1,10,false,70,24,21312213,3,2985519,72,31,12,66
+57,1,false,3,EDP Services,Technology,28356934,32,2,4,false,59,27,94880649,4,66164652,7,97,18,76
+24,18,true,3,Business Services,Miscellaneous,5794264,59,1,1,true,50,31,6630907,4,38523366,34,83,25,18
+28,11,true,1,Finance: Consumer Services,Finance,33962368,18,4,2,false,46,17,93541950,5,74381990,73,93,19,16
+59,13,false,1,n/a,n/a,10256247,24,1,1,false,51,16,16665661,5,78638311,59,65,43,77
+61,12,false,1,Electrical Products,Technology,44844886,43,1,6,false,7,5,65836603,5,44946325,35,95,15,14
+23,3,true,3,Natural Gas Distribution,Energy,49808321,54,2,5,true,19,19,93805870,4,27065229,63,99,22,61
+32,19,true,3,n/a,n/a,41333425,27,1,4,true,2,11,89596544,3,70353661,21,49,17,83
+27,9,true,3,Investment Managers,Finance,45486408,78,3,4,false,67,10,94113804,3,32141561,35,78,12,49
+31,6,true,3,Major Banks,Finance,9958324,59,4,10,false,43,17,13143122,5,69364703,26,58,41,8
+42,4,true,1,Restaurants,Consumer Services,41268777,84,4,10,false,5,16,71425388,3,34219940,45,43,23,8
+70,13,false,3,n/a,n/a,24824554,32,3,1,false,22,26,13508078,5,21028333,33,93,10,34
+48,12,true,2,n/a,n/a,41050982,77,3,1,false,24,15,85334285,4,97199737,57,97,11,54
+18,16,true,3,Real Estate Investment Trusts,Consumer Services,788033,5,1,10,true,27,19,93026917,4,1337451,89,78,42,90
+41,7,false,3,n/a,n/a,8516753,38,1,5,false,10,3,66096806,5,66785543,82,53,10,88
+49,14,false,3,n/a,n/a,8827917,47,1,0,false,29,13,83401462,3,22533706,86,47,34,77
+20,9,false,2,n/a,n/a,11561677,37,1,2,true,33,28,28189222,4,7332090,80,65,37,85
+23,12,false,1,Steel/Iron Ore,Basic Industries,39950598,20,4,2,true,26,22,85396029,4,12669368,58,93,38,20
+34,5,true,1,Natural Gas Distribution,Public Utilities,20559449,85,1,4,true,68,9,35962222,3,38139810,15,34,7,27
+57,3,true,3,Home Furnishings,Consumer Durables,11091621,43,3,8,true,52,13,45166673,5,42131569,49,61,38,51
+50,13,false,2,n/a,n/a,3425165,75,1,2,false,31,3,56537777,5,5591955,32,55,30,37
+38,15,false,1,Other Consumer Services,Consumer Services,31987171,96,2,10,true,47,10,8352821,5,17611322,8,33,13,44
+72,5,true,1,Oil & Gas Production,Energy,10818038,72,1,3,true,23,29,31762578,4,84406228,61,78,26,64
+68,0,false,1,n/a,n/a,32641392,14,4,3,true,32,6,29281388,4,4453809,64,61,18,36
+22,3,false,3,n/a,n/a,36858957,86,4,2,true,24,13,45000438,3,53182489,32,78,23,15
+59,11,true,3,Advertising,Technology,21558178,1,3,5,false,38,14,39890007,3,35276872,17,94,17,17
+46,20,true,3,Restaurants,Consumer Services,6920202,65,2,2,true,64,8,50474563,5,89611915,92,82,20,52
+64,9,false,1,Finance: Consumer Services,Finance,15785151,9,1,9,true,20,11,18163787,5,94001837,54,45,42,29
+34,20,false,1,n/a,n/a,33479490,26,3,9,false,38,1,92924083,3,36081290,74,61,13,17
+49,15,false,2,Other Consumer Services,Consumer Services,12755198,75,2,8,false,1,33,9004170,4,96507360,93,31,16,18
+39,14,false,3,Trucking Freight/Courier Services,Transportation,20334016,11,3,7,false,66,12,34687093,5,74263241,14,32,35,8
+39,20,true,1,Real Estate Investment Trusts,Consumer Services,1068843,59,1,3,false,58,1,82679579,3,35327013,61,95,40,14
+63,16,false,2,Beverages (Production/Distribution),Consumer Non-Durables,20990694,94,3,1,true,20,30,91035097,4,27657811,11,60,24,18
+62,6,false,2,n/a,n/a,18435428,44,4,10,true,8,32,16631745,5,39459138,86,60,42,45
+20,15,true,2,Biotechnology: In Vitro & In Vivo Diagnostic Substances,Health Care,35857272,35,2,10,false,16,13,68400665,5,82030496,79,70,22,95
+24,20,true,3,n/a,n/a,5009212,44,1,8,false,66,8,18155052,4,41437486,15,47,17,52
+33,10,true,3,Major Banks,Finance,31897246,25,4,3,false,64,13,46607638,4,93401464,92,32,19,25
+25,20,false,3,Biotechnology: In Vitro & In Vivo Diagnostic Substances,Health Care,34474962,2,1,2,true,4,35,18243043,5,96260591,27,64,12,6
+67,11,true,3,"Computer Software: Programming, Data Processing",Technology,5321469,74,4,4,false,7,24,81968270,5,69974938,4,90,38,67
+52,20,true,2,"Computer Software: Programming, Data Processing",Technology,678964,33,4,8,true,35,3,6154969,3,64099282,66,42,25,58
+42,9,true,2,Property-Casualty Insurers,Finance,15336100,73,1,9,true,50,29,91958606,4,601858,14,53,28,10
+72,8,false,2,Movies/Entertainment,Consumer Services,25426198,84,4,2,true,56,33,40698316,3,73804280,63,95,9,40
+60,3,true,2,Military/Government/Technical,Consumer Services,14305636,32,2,3,true,37,1,48775393,5,58279955,89,74,14,24
+36,13,false,2,Property-Casualty Insurers,Finance,14871865,43,2,2,false,12,5,82742044,3,45180329,68,67,44,16
+60,3,true,3,Real Estate Investment Trusts,Consumer Services,9568634,30,1,9,false,14,4,10801335,4,66428402,75,43,34,58
+53,19,false,3,n/a,n/a,19464599,51,2,1,false,39,18,24571166,4,15047881,62,44,5,44
+20,15,false,2,Industrial Machinery/Components,Capital Goods,28671912,77,1,10,true,53,24,61324405,3,79520851,14,56,30,26
+29,13,false,1,n/a,n/a,48949226,62,3,10,false,60,33,69661256,5,20419664,75,36,13,6
+19,1,true,1,Electronic Components,Technology,4768745,40,4,4,false,70,14,1883213,4,79607290,31,96,44,87
+40,3,true,2,n/a,n/a,25197515,62,2,6,true,46,25,49486620,3,75524108,38,40,11,76
+25,13,true,3,Computer Software: Prepackaged Software,Technology,29280452,62,3,8,true,13,19,42158570,3,75729893,14,58,23,59
+63,12,true,1,Department/Specialty Retail Stores,Consumer Services,34968489,28,4,8,false,8,35,70638903,4,10650133,48,88,21,76
+34,12,true,1,Major Banks,Finance,44158388,5,1,7,true,34,25,5976647,5,69760247,58,49,37,18
+32,4,false,2,Natural Gas Distribution,Public Utilities,41361852,25,2,4,true,53,27,18873636,5,23127006,3,82,23,12
+37,9,true,1,Real Estate Investment Trusts,Consumer Services,34953638,71,4,1,false,49,17,33000235,3,3257732,20,100,22,95
+39,14,false,3,Semiconductors,Technology,4034589,41,2,2,true,18,14,48100303,4,51522036,72,64,33,39
+33,7,false,1,Clothing/Shoe/Accessory Stores,Consumer Services,41461661,66,2,1,true,46,1,38629179,4,92795141,93,57,19,85
+38,13,false,1,n/a,n/a,5765471,63,3,7,true,46,28,17166093,4,63915050,57,39,11,95
+33,5,false,3,n/a,n/a,9159429,72,2,3,true,32,19,12055373,3,44023750,68,46,20,47
+33,15,false,1,Medical/Dental Instruments,Health Care,41105733,32,4,7,false,63,13,88743287,5,54002133,32,52,10,49
+72,9,false,2,n/a,n/a,2574146,12,2,3,false,26,19,91295211,5,71733881,34,43,26,10
+21,19,true,2,n/a,n/a,2470213,78,4,9,true,34,21,35098328,4,22366985,6,83,7,60
+49,10,false,2,n/a,n/a,34283697,22,2,5,false,44,9,65913037,4,80748025,51,87,40,16
+31,17,true,1,EDP Services,Technology,28283784,62,2,4,false,20,30,67452498,3,22459780,87,65,7,56
+45,20,false,3,Life Insurance,Finance,19635600,35,3,8,true,24,14,26988554,5,81098829,88,31,17,27
+48,6,false,2,Other Specialty Stores,Consumer Services,44928145,64,2,5,false,69,20,87997890,3,55169175,39,97,44,51
+52,16,false,2,n/a,n/a,1232446,38,2,6,true,55,34,52849535,4,76910929,13,49,12,53
+60,16,true,2,n/a,n/a,6839610,36,4,3,false,13,12,33852900,3,20170533,35,83,10,8
+37,4,false,3,n/a,n/a,44302852,98,2,10,true,4,21,94726995,3,5463488,93,35,21,90
+36,5,false,2,n/a,n/a,767497,85,3,1,true,15,22,7892876,3,10711058,26,80,34,44
+55,4,true,3,Consumer Electronics/Video Chains,Consumer Services,6127165,51,4,5,true,35,19,30074758,4,35366574,87,61,15,59
+26,16,false,1,Broadcasting,Consumer Services,7677499,52,2,8,true,56,19,18750362,4,73614447,16,71,10,15
+39,5,false,1,Property-Casualty Insurers,Finance,32533587,7,4,3,false,30,16,37467524,3,93574266,58,33,12,28
+31,2,true,3,Investment Bankers/Brokers/Service,Finance,16098334,82,1,0,true,17,23,59951569,3,23569937,75,91,21,17
+28,16,true,2,n/a,n/a,5168856,46,4,1,true,18,8,46507827,3,69759288,95,66,40,59
+46,7,false,3,n/a,n/a,16758659,51,3,7,true,11,24,24709767,3,30170018,59,49,29,54
+35,8,false,3,Major Pharmaceuticals,Health Care,30424290,43,4,1,false,6,18,49935400,5,72580759,31,85,16,75
+69,16,false,2,Electronics Distribution,Consumer Services,10717483,28,4,5,false,66,4,46406305,5,98236827,68,41,20,71
+68,10,false,1,Oil Refining/Marketing,Energy,31959241,56,3,1,true,66,18,53236146,5,39980874,73,74,20,5
+53,18,true,3,Agricultural Chemicals,Basic Industries,43838288,25,3,5,false,1,31,1571575,5,28320930,1,100,22,82
+40,14,false,3,Major Pharmaceuticals,Health Care,32365524,85,3,6,false,35,25,98773727,3,66304263,59,38,40,52
+35,9,true,1,n/a,n/a,10826102,100,2,7,false,4,35,63568991,4,94105536,95,73,39,89
+39,8,true,1,Television Services,Consumer Services,23969371,97,2,10,false,67,10,7303290,3,97780022,32,57,36,92
+22,8,true,3,EDP Services,Technology,33467768,1,2,5,true,50,30,20540399,4,23336159,4,50,19,79
+73,20,true,2,Real Estate Investment Trusts,Consumer Services,17177461,55,3,0,false,58,8,55327681,3,39832461,83,73,8,89
+38,14,false,3,Industrial Machinery/Components,Capital Goods,31493327,83,3,5,true,69,9,76764359,3,99642776,79,36,18,18
+69,14,true,1,n/a,n/a,17652620,88,2,1,true,5,1,68382381,3,19906910,62,37,5,23
+70,7,false,2,n/a,n/a,23218770,72,2,1,true,19,28,58032463,4,49154424,56,50,18,51
+59,11,true,1,Property-Casualty Insurers,Finance,12072551,3,1,8,true,32,13,28695496,3,42260412,89,52,5,86
+74,8,false,3,Major Banks,Finance,5545936,49,4,2,false,28,23,12772195,5,24151619,69,58,34,78
+59,3,true,1,Electrical Products,Consumer Durables,38104249,47,3,10,true,64,5,9540752,5,13610106,70,64,21,42
+18,14,false,2,Coal Mining,Energy,10636466,51,4,7,true,21,10,92251167,4,26489379,70,81,40,23
+57,20,true,1,Marine Transportation,Transportation,19807800,10,2,8,true,3,19,19714525,4,56551741,26,87,11,70
+32,13,true,2,Telecommunications Equipment,Consumer Durables,46644677,32,4,2,true,59,8,55934369,3,52376,58,53,22,32
+65,9,true,3,Finance/Investors Services,Finance,49936352,97,3,3,true,63,3,90478679,4,26042758,56,32,31,56
+34,11,true,3,Coal Mining,Energy,10292128,4,4,0,true,16,19,61207917,5,25743168,19,32,30,38
+43,12,false,3,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,12449473,79,3,1,false,35,22,60958335,3,72793300,6,68,35,11
+23,5,true,3,n/a,n/a,47459168,49,3,1,false,9,22,91521831,4,87534505,28,36,5,61
+28,2,false,3,Electronic Components,Consumer Non-Durables,22178136,49,3,9,false,52,5,28910501,3,24597985,69,40,7,68
+59,3,true,2,Medical Electronics,Health Care,19281004,15,4,4,true,5,22,3414043,4,68797709,68,34,27,30
+75,16,false,2,Electric Utilities: Central,Public Utilities,13028112,89,3,10,true,63,14,80291992,5,60327650,80,35,19,80
+20,12,true,1,Specialty Insurers,Finance,27876437,82,4,7,false,28,31,45384737,3,30970601,72,85,43,42
+57,0,true,3,Industrial Machinery/Components,Technology,42602435,70,1,5,true,42,24,73584861,4,34050469,33,66,41,45
+58,10,true,2,Electric Utilities: Central,Public Utilities,5303883,44,4,1,false,31,17,37625020,4,47172655,55,69,42,29
+22,20,true,2,Environmental Services,Public Utilities,15799224,26,2,6,true,43,5,77399352,4,92344226,51,36,18,9
+57,4,true,2,n/a,n/a,3301247,83,2,6,false,14,28,44565633,5,2683875,21,67,22,94
+29,3,false,3,Accident &Health Insurance,Finance,24770831,28,3,4,false,53,23,74289972,3,1546838,43,61,8,74
+45,3,false,2,n/a,n/a,21374761,27,3,10,true,14,11,68810701,5,95052359,67,95,12,15
+40,20,false,2,Business Services,Finance,40957313,88,2,7,true,41,15,45008981,5,96250085,90,35,18,25
+66,13,false,2,Major Banks,Finance,1691623,47,2,2,true,56,35,82123302,5,98582372,79,98,38,16
+22,7,true,3,Savings Institutions,Finance,29993795,74,3,5,false,3,27,37305429,4,45595329,4,88,12,49
+38,8,true,3,Major Banks,Finance,2484397,28,1,7,true,55,33,68029309,5,47011216,63,71,24,43
+31,19,true,1,Metal Fabrications,Capital Goods,5621063,84,2,0,false,25,4,76751042,5,9880368,37,38,18,45
+59,13,true,1,n/a,n/a,45917701,65,4,8,true,8,13,27972220,4,72358499,4,79,32,81
+53,8,false,1,n/a,n/a,30658467,54,4,10,true,42,27,7595120,3,97793958,62,95,9,16
+67,1,false,2,n/a,n/a,36350958,40,2,7,true,13,30,81837994,3,17375434,23,45,29,78
+66,5,false,2,Professional Services,Consumer Services,14279787,62,2,2,true,70,17,31599078,5,27512579,80,95,35,18
+44,9,false,1,Business Services,Miscellaneous,35352324,25,2,4,true,26,9,54237820,3,68411201,77,97,10,72
+30,8,true,2,Major Pharmaceuticals,Health Care,48254983,1,1,4,false,60,8,11980812,3,89326638,42,75,5,87
+72,10,false,2,Industrial Machinery/Components,Capital Goods,20651186,51,1,4,false,44,10,75893885,3,87339420,67,86,11,8
+21,14,true,1,Telecommunications Equipment,Public Utilities,470510,92,4,2,false,42,6,32535018,5,8179366,12,92,34,80
+55,0,false,3,n/a,n/a,9005045,30,1,8,false,46,1,17825635,4,65783230,50,67,21,85
+34,8,false,1,Medical/Dental Instruments,Health Care,14013871,19,2,4,false,40,23,39891634,5,62156185,56,43,7,85
+59,19,true,2,Major Pharmaceuticals,Health Care,29406302,53,2,4,false,62,24,41168962,3,81535335,50,30,29,91
+46,2,false,1,Major Chemicals,Basic Industries,16833806,37,2,8,true,4,9,98230946,5,74051562,60,71,7,42
+75,9,false,3,Medical Specialities,Health Care,48916903,83,3,6,false,12,14,14934829,4,48093635,38,44,22,35
+63,18,false,1,Newspapers/Magazines,Consumer Services,32342584,89,1,6,false,39,18,96662887,4,53559443,37,37,31,35
+24,14,false,3,n/a,n/a,33992963,61,1,9,false,57,28,1912303,3,65229111,38,99,19,59
+44,0,false,1,Home Furnishings,Consumer Durables,44967348,5,3,0,true,59,19,52713288,4,95878304,19,50,41,75
+65,16,true,1,Computer Software: Prepackaged Software,Technology,302353,4,3,10,true,36,8,53169661,5,74477284,5,70,9,74
+30,19,true,2,n/a,n/a,25708255,54,2,9,true,65,24,80257025,3,35697776,89,44,35,50
+19,20,false,3,Radio And Television Broadcasting And Communications Equipment,Technology,39427665,14,3,3,true,53,19,92124877,4,54018577,17,95,36,78
+35,13,false,2,Restaurants,Consumer Services,15351213,49,2,5,true,18,6,10554142,3,43336331,38,56,14,20
+45,10,true,1,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,33172109,21,1,5,false,6,23,85853512,5,72918312,7,42,23,76
+45,7,false,3,Major Pharmaceuticals,Health Care,32100311,41,3,2,true,62,19,30066413,4,88462163,2,96,8,62
+48,16,true,3,n/a,n/a,11890598,18,3,8,false,28,17,38993664,5,62748065,46,47,27,29
+29,16,true,2,Electrical Products,Consumer Durables,35042832,81,2,1,true,58,26,55615241,3,5874610,7,66,28,24
+18,7,true,1,Semiconductors,Technology,16422881,24,4,0,false,59,3,33531850,4,82297128,77,44,32,35
+30,9,true,2,Computer Software: Prepackaged Software,Technology,10143716,7,3,9,false,47,33,81908536,5,65643440,68,98,21,44
+65,17,true,2,Real Estate Investment Trusts,Consumer Services,13567889,74,2,10,false,60,21,46710853,4,4327991,62,53,18,33
+66,12,false,2,Business Services,Miscellaneous,15834173,18,4,5,true,60,26,43174480,3,94794028,44,41,6,83
+19,14,false,2,Business Services,Miscellaneous,2258961,35,3,3,false,41,13,38789942,5,306187,38,33,18,67
+48,9,false,1,Major Banks,Finance,35023111,36,3,1,true,69,11,84406156,3,29636562,12,50,29,41
+59,14,false,3,n/a,n/a,31966496,42,4,5,true,38,21,16185695,4,29165846,22,86,29,39
+40,16,false,1,n/a,n/a,43236342,1,4,7,false,29,7,45599110,4,61357033,83,51,9,90
+26,18,false,3,Major Banks,Finance,24871250,74,3,6,true,63,26,40762572,4,603911,55,61,21,13
+70,16,false,1,Commercial Banks,Finance,18396480,89,2,8,false,66,27,32939657,3,75979389,59,60,33,71
+45,3,true,1,Other Specialty Stores,Consumer Services,48583922,45,2,6,false,5,20,8686298,4,43522173,85,80,29,25
+46,15,true,1,Automotive Aftermarket,Consumer Durables,19283493,69,4,10,false,54,20,48873230,5,418713,67,91,36,66
+55,2,true,3,Other Consumer Services,Consumer Services,2594541,4,3,1,false,36,27,16993370,3,47056239,21,81,43,13
+38,15,false,1,Homebuilding,Capital Goods,9459674,77,4,6,true,63,33,24178518,4,53449876,39,50,10,79
+22,14,false,3,Real Estate,Finance,22225642,59,4,9,true,51,16,65524329,3,24238811,74,98,22,10
+42,12,true,3,Metal Fabrications,Capital Goods,20715764,72,4,8,true,11,29,25529018,5,71206197,37,43,28,56
+61,9,true,1,Catalog/Specialty Distribution,Consumer Services,21694148,21,1,0,true,28,35,19475317,5,10587563,82,99,45,81
+18,14,false,1,Paper,Basic Industries,28342548,37,1,5,false,18,12,15913013,4,24435461,87,33,9,11
+38,4,true,1,Major Pharmaceuticals,Health Care,14487860,92,3,1,false,29,11,1301566,5,82150457,29,92,21,77
+42,19,true,2,Shoe Manufacturing,Consumer Non-Durables,19094148,13,3,9,false,69,2,44508262,4,65467063,82,55,22,74
+70,20,false,1,Major Pharmaceuticals,Health Care,31144590,94,3,0,true,68,7,99637062,3,28688339,26,93,21,69
+66,11,true,3,Business Services,Miscellaneous,3408134,49,2,2,true,55,11,83251410,3,51939305,87,57,42,30
+65,11,false,3,Television Services,Consumer Services,19589269,8,1,3,false,24,21,55561504,3,41043091,57,35,20,45
+52,12,true,3,Marine Transportation,Transportation,17794543,14,4,8,true,12,5,10826653,5,85440698,60,87,11,88
+72,0,false,2,Major Banks,Finance,30282246,92,3,2,false,30,20,76280985,5,98857284,1,89,41,89
+21,11,true,2,Finance: Consumer Services,Finance,49992360,88,4,0,false,22,30,51940226,3,69867493,16,71,29,93
+53,12,true,1,n/a,n/a,27993775,85,3,9,false,1,29,34837686,5,6827542,34,30,8,37
+35,6,true,3,Major Pharmaceuticals,Health Care,38880716,28,2,5,true,19,24,45109988,4,10617837,42,77,13,74
+37,10,true,3,Major Banks,Finance,41032328,51,2,6,false,27,28,50259981,4,67675484,38,75,20,32
+19,9,false,1,Rental/Leasing Companies,Consumer Services,44175322,92,4,3,false,1,2,76747316,5,39339930,10,76,16,60
+20,15,false,3,Industrial Machinery/Components,Capital Goods,301104,29,4,1,true,36,3,60030955,5,60825901,47,38,9,46
+44,14,false,1,Clothing/Shoe/Accessory Stores,Consumer Services,22414627,1,3,2,true,28,18,63713537,5,37488693,32,94,36,19
+26,20,false,2,Major Banks,Finance,27980110,37,1,7,true,31,29,79945473,4,18262681,73,73,27,94
+23,16,true,2,Major Banks,Finance,41906139,24,3,8,false,22,28,63287793,3,43440823,48,44,19,70
+52,20,true,2,n/a,n/a,8238097,69,1,3,true,70,35,11584540,5,91816173,71,37,41,79
+34,4,false,3,Motor Vehicles,Consumer Services,47480155,82,4,4,true,64,33,15918507,5,11094941,80,74,8,72
+32,14,true,1,Medical/Dental Instruments,Health Care,5205922,96,1,0,true,27,12,20874709,5,47358091,93,32,34,72
+75,5,false,1,Hotels/Resorts,Consumer Services,47141418,96,2,8,false,26,28,44409541,5,90209179,13,93,20,79
+49,15,true,3,Food Chains,Consumer Services,17342037,12,3,4,false,40,20,17318527,5,73829261,57,83,30,22
+38,7,true,1,Business Services,Miscellaneous,26223759,52,3,6,true,5,24,84292014,3,54211447,33,42,9,57
+65,2,false,2,Major Pharmaceuticals,Health Care,5369181,21,3,3,true,19,17,26485071,5,22913810,92,32,30,28
+58,11,false,1,Property-Casualty Insurers,Finance,9937441,64,1,6,false,23,13,18014773,5,53696847,62,45,32,13
+64,19,true,1,Marine Transportation,Transportation,12041342,42,4,0,false,15,19,34012321,5,19005362,83,42,17,11
+70,5,false,1,Industrial Machinery/Components,Capital Goods,38977980,8,1,7,true,9,20,33610155,3,23168223,10,99,32,66
+28,12,false,1,Radio And Television Broadcasting And Communications Equipment,Technology,7015078,94,1,9,true,43,20,83948312,5,63790395,6,62,38,57
+63,12,true,1,Medical/Dental Instruments,Health Care,32835182,9,3,10,false,8,14,18783648,3,8903209,75,33,14,9
+39,10,true,1,Major Pharmaceuticals,Health Care,2456737,73,1,2,false,41,8,69450325,5,8698469,81,34,24,88
+64,4,true,3,Computer peripheral equipment,Technology,11499422,89,4,2,true,57,6,85488163,3,89476229,41,69,28,73
+68,13,false,2,n/a,n/a,40461427,48,3,10,false,46,22,67413580,5,7276786,64,93,45,90
+25,12,false,1,Savings Institutions,Finance,49541021,19,3,3,true,48,33,98298373,5,90858804,6,36,5,28
+20,0,true,2,Major Pharmaceuticals,Health Care,17564044,29,2,5,true,9,23,89897060,4,25653721,45,61,14,71
+22,6,true,1,Major Banks,Finance,8641680,58,4,2,false,60,24,74994448,4,81018873,71,52,33,93
+72,4,true,3,Telecommunications Equipment,Public Utilities,2380728,19,1,4,false,55,18,2468085,5,16826903,65,33,7,67
+73,12,true,2,Major Banks,Finance,49839440,54,4,9,true,3,20,83477298,4,84526938,87,75,18,95
+53,11,true,3,n/a,n/a,39302397,66,4,5,true,6,23,11149808,5,58107440,65,47,10,35
+58,15,false,3,Major Pharmaceuticals,Health Care,2845266,54,2,4,true,19,2,48331377,5,30153216,4,33,26,45
+37,17,false,3,Major Pharmaceuticals,Health Care,45055474,85,1,8,true,18,32,80333351,4,53842334,6,36,7,33
+58,7,true,3,Containers/Packaging,Consumer Durables,6451392,41,3,2,false,65,19,3577916,4,86399942,28,63,34,86
+69,16,false,2,EDP Services,Technology,9021646,70,1,0,true,63,12,76164688,3,22931933,85,32,22,88
+67,11,false,3,Major Pharmaceuticals,Health Care,45055668,13,2,2,true,64,24,19369959,4,90705042,94,37,43,93
+51,12,false,1,Business Services,Miscellaneous,33152767,85,1,5,true,25,32,26306630,5,94997754,56,32,18,59
+33,12,true,3,Major Pharmaceuticals,Health Care,18090624,6,2,4,false,56,9,55540162,4,11470391,1,69,35,50
+30,9,true,2,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,31644181,8,4,2,false,63,32,53531040,4,12085372,75,69,6,34
+28,9,true,1,n/a,n/a,45635236,89,1,7,true,53,21,50301387,3,2976541,94,56,43,21
+52,15,true,1,Savings Institutions,Finance,2521726,42,4,3,false,22,4,70215442,5,40387134,80,43,24,24
+53,7,false,2,Major Banks,Finance,38949147,91,4,6,false,69,20,1775588,4,70596360,27,50,13,56
+40,18,true,3,Broadcasting,Consumer Services,24090566,59,2,1,true,35,2,49198686,3,27664045,83,53,34,50
+68,18,true,2,Major Pharmaceuticals,Health Care,9037872,20,4,6,true,17,8,10000440,5,86485228,72,94,32,61
+48,0,true,3,Business Services,Miscellaneous,45924566,72,4,9,false,50,17,73734165,3,1749659,40,76,26,31
+52,18,false,1,Homebuilding,Basic Industries,27798551,68,2,6,true,22,19,47451694,3,49127972,37,63,8,20
+40,8,true,1,Restaurants,Consumer Services,17762589,71,1,6,false,61,3,70184860,3,61092682,53,68,37,72
+35,11,true,3,Electrical Products,Capital Goods,23092645,83,3,0,true,62,33,52460718,3,6764023,8,43,6,79
+30,14,true,2,n/a,n/a,7909392,73,1,2,false,61,9,31880234,4,53530725,32,41,15,85
+29,14,false,2,Medical/Dental Instruments,Health Care,30229464,49,1,0,true,45,33,71552824,3,86109857,24,78,21,68
+37,2,true,3,Industrial Specialties,Consumer Durables,14861572,41,4,0,true,1,24,88189813,4,81696567,7,89,12,36
+65,17,false,1,Broadcasting,Consumer Services,22934981,67,4,10,true,28,19,29106752,3,57968093,38,85,30,42
+66,11,false,3,Finance: Consumer Services,Finance,11562216,61,1,2,true,57,2,86464419,3,95542399,11,59,26,47
+66,6,false,3,Transportation Services,Consumer Services,16181150,83,4,3,true,61,7,86014741,4,55221254,21,62,29,25
+62,18,true,3,n/a,n/a,21891391,22,1,2,false,54,3,72480395,5,23570175,55,67,6,24
+56,11,false,2,Department/Specialty Retail Stores,Consumer Services,33888007,76,3,3,true,3,9,84998192,3,28080377,80,40,31,83
+30,4,true,2,n/a,n/a,21547486,80,1,8,true,31,26,69771491,3,67040961,70,89,34,81
+18,12,false,2,Computer Software: Prepackaged Software,Technology,10706186,39,2,9,false,18,27,89615215,3,71370205,62,35,9,77
+72,7,true,2,Natural Gas Distribution,Public Utilities,19308183,66,2,0,false,15,22,21037932,3,22365745,78,61,10,5
+53,18,true,1,n/a,n/a,14580586,80,4,2,false,40,22,86118151,5,30260478,53,61,35,64
+28,12,true,1,Oil & Gas Production,Energy,22745219,83,2,1,false,14,6,5407837,4,278503,22,59,30,86
+35,11,false,1,Power Generation,Public Utilities,270454,63,3,6,false,6,22,1526957,5,90336221,39,86,37,39
+21,19,false,1,Medical/Dental Instruments,Health Care,16890419,3,1,8,false,24,32,35709108,4,14486748,34,39,19,41
+56,10,false,2,Farming/Seeds/Milling,Consumer Non-Durables,24006647,96,1,2,true,39,25,6060971,5,20541766,5,69,15,92
+18,3,false,2,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,24402041,87,3,1,true,15,4,22891427,3,53900665,86,90,5,14
+20,16,false,3,n/a,n/a,19260941,78,2,7,true,47,32,5505838,3,76897119,16,79,43,7
+28,8,true,1,Telecommunications Equipment,Public Utilities,16162341,81,4,7,false,20,26,3877009,5,64265489,11,68,25,49
+36,8,true,3,Oil & Gas Production,Energy,39845489,88,4,10,false,45,3,28641226,4,31691868,54,100,35,70
+19,18,false,2,Electric Utilities: Central,Public Utilities,33568864,75,2,6,true,52,4,34104455,5,12916716,3,43,23,29
+74,13,true,1,Real Estate Investment Trusts,Consumer Services,36186793,29,1,3,false,4,25,2890460,4,36510583,28,72,21,42
+54,7,false,3,Specialty Chemicals,Basic Industries,1189321,56,2,5,false,36,11,32961787,3,67373252,27,43,39,66
+59,20,true,1,Electrical Products,Capital Goods,1983840,60,4,9,true,35,12,54847152,5,13090801,12,83,39,59
+57,15,true,1,Commercial Banks,Finance,41095047,36,1,1,false,37,4,26966688,5,88013611,22,53,31,62
+42,1,true,2,Broadcasting,Consumer Services,43230043,19,2,7,true,66,33,25803917,4,95999901,3,34,40,21
+39,12,true,2,Radio And Television Broadcasting And Communications Equipment,Technology,45339113,69,2,1,true,28,26,45720318,3,42611528,19,67,17,87
+64,4,false,2,Integrated oil Companies,Energy,42795023,6,2,7,false,63,22,17662602,5,26972308,2,42,45,61
+61,6,false,3,Semiconductors,Technology,15041994,38,2,9,false,42,20,43876773,4,79225262,35,70,15,26
+41,8,false,2,Major Pharmaceuticals,Health Care,7184345,59,2,9,true,12,22,67488309,4,67785022,48,57,23,16
+41,15,false,1,Electronic Components,Technology,39055331,97,1,8,true,30,8,38089976,5,71897839,52,99,18,26
+47,13,true,1,Telecommunications Equipment,Public Utilities,28617228,5,2,1,true,15,35,67369867,3,77905890,70,63,6,8
+26,9,true,3,Major Banks,Finance,38600143,42,3,1,false,57,16,2671205,4,52578086,33,58,32,16
+34,2,true,3,Electronic Components,Capital Goods,13921038,29,4,4,false,32,19,16036802,3,1848547,73,70,34,82
+43,17,false,2,n/a,n/a,44635933,61,1,0,false,59,7,43004218,5,85293948,55,94,26,60
+62,3,true,3,Steel/Iron Ore,Basic Industries,25330828,11,2,0,false,5,32,85971855,4,60671240,60,42,19,79
+72,14,false,1,Computer Software: Prepackaged Software,Technology,18265623,32,4,9,false,47,16,55614667,4,68592646,1,41,42,70
+73,20,false,1,"Computer Software: Programming, Data Processing",Technology,43223754,63,1,8,true,48,32,67867626,4,95549348,33,87,16,73
+55,6,false,1,Commercial Banks,Finance,7373866,75,2,8,true,19,4,59675567,5,90672550,25,48,27,67
+48,20,false,1,Business Services,Finance,2724711,29,2,10,false,69,3,8619448,5,7134594,47,43,18,23
+71,7,true,1,Real Estate Investment Trusts,Consumer Services,27295495,76,4,2,true,30,29,90819974,5,69345067,75,47,31,7
+45,5,true,2,Telecommunications Equipment,Consumer Services,7565223,86,2,1,true,53,26,91602691,4,87257362,62,55,33,23
+73,14,true,3,Major Banks,Finance,8859272,54,3,6,true,15,12,25365115,3,29577556,76,64,39,26
+23,16,false,1,Medical/Dental Instruments,Health Care,11705894,51,3,7,false,44,34,79667734,3,8710599,74,30,42,11
+40,1,false,3,n/a,n/a,6954580,33,4,9,true,34,22,72449828,5,73637183,25,68,40,17
+38,7,false,2,n/a,n/a,22701422,79,4,10,false,51,5,77263651,4,80693315,76,81,11,65
+43,13,false,3,Business Services,Finance,13897085,80,1,2,false,31,31,33256876,4,40153755,67,62,31,37
+36,20,false,2,n/a,n/a,42404300,44,3,1,true,2,8,60884157,3,88948777,48,93,28,18
+62,6,true,1,Major Pharmaceuticals,Health Care,10167084,9,1,4,false,30,11,56390130,4,55274820,21,45,42,74
+44,1,true,1,Packaged Foods,Consumer Non-Durables,39939328,23,1,3,false,23,35,28957317,4,42289160,93,34,27,54
+51,1,true,2,Real Estate Investment Trusts,Consumer Services,40588223,49,4,2,true,52,18,46507857,5,71397032,26,100,30,23
+22,19,false,3,n/a,n/a,350351,10,2,7,false,3,19,7947302,5,7147040,34,42,37,22
+29,5,true,1,Major Banks,Finance,14241073,30,4,0,true,31,34,41897761,4,47690670,13,52,41,60
+55,19,true,3,Electric Utilities: Central,Public Utilities,25257391,42,2,6,true,6,5,76805245,5,85296418,77,82,45,61
+46,4,false,3,Broadcasting,Consumer Services,12173631,34,1,3,false,41,19,89936487,3,66124860,61,64,41,43
+66,18,false,1,Electric Utilities: Central,Public Utilities,31610148,65,2,4,false,62,31,42089405,3,3055070,36,96,28,34
+49,16,false,3,n/a,n/a,28638760,49,1,2,true,29,21,97974026,5,75610433,12,96,12,94
+45,7,false,2,n/a,n/a,46194777,88,2,1,true,63,28,13247691,4,9150564,18,73,27,25
+59,18,false,2,Other Specialty Stores,Consumer Services,22110735,20,1,5,true,58,23,23967842,5,20039848,79,42,14,25
+69,4,true,2,n/a,n/a,45477882,45,3,6,false,2,19,52291204,4,22901745,27,50,37,59
+44,14,false,3,Life Insurance,Finance,21190393,82,2,0,true,43,17,73006262,4,65370569,31,57,20,46
+31,20,true,1,n/a,n/a,40262073,82,3,8,true,39,21,88752711,5,15211336,11,63,25,60
+40,10,true,1,Property-Casualty Insurers,Finance,33847664,62,2,2,false,65,10,53524521,4,27516166,74,95,37,28
+66,6,true,1,Air Freight/Delivery Services,Transportation,2013007,24,1,7,false,27,14,92888815,5,86546401,66,30,23,71
+51,20,true,1,Banks,Finance,43179814,33,4,9,false,24,28,50598994,3,57264335,35,52,38,54
+64,11,false,2,Telecommunications Equipment,Public Utilities,37053799,4,1,1,false,68,10,49900348,4,74245130,79,100,23,13
+72,10,false,3,Major Pharmaceuticals,Health Care,15730255,45,3,4,true,17,23,47923640,3,10814959,42,72,10,75
+59,15,false,2,Major Pharmaceuticals,Health Care,10674744,99,2,10,false,32,32,23625861,4,8486064,51,80,33,81
+51,18,false,3,Real Estate Investment Trusts,Consumer Services,15091997,89,2,5,true,50,22,25753896,3,78766349,60,64,27,90
+34,1,true,3,Semiconductors,Technology,38226955,73,1,10,true,9,20,27312495,4,67129124,14,43,18,88
+30,6,true,1,Package Goods/Cosmetics,Consumer Non-Durables,47507663,55,1,4,true,9,3,89092382,3,95330536,83,64,30,8
+74,0,true,3,Steel/Iron Ore,Capital Goods,4071193,26,3,0,true,66,12,70332429,3,78631507,4,44,18,16
+41,4,true,1,Hospital/Nursing Management,Health Care,36547757,72,1,6,false,4,27,6662769,3,13343072,90,95,26,57
+49,6,true,3,Telecommunications Equipment,Public Utilities,32454257,64,3,8,true,24,2,53107431,5,83817198,42,98,34,61
+44,11,false,1,Metal Fabrications,Capital Goods,4764558,95,3,4,true,13,19,85367730,3,45796304,3,37,42,95
+46,1,false,2,Biotechnology: Electromedical & Electrotherapeutic Apparatus,Health Care,45558750,70,3,7,true,37,1,1073214,3,70040980,41,77,7,32
+38,13,true,3,Biotechnology: In Vitro & In Vivo Diagnostic Substances,Health Care,34008967,85,4,6,false,19,23,29145043,5,10055357,74,69,8,65
+46,5,true,2,n/a,n/a,41974823,21,3,4,true,58,35,67425544,3,35396282,2,80,32,67
+40,17,true,1,Natural Gas Distribution,Public Utilities,20953090,46,2,6,false,17,34,68783091,5,84303923,84,79,7,57
+46,14,true,1,Restaurants,Consumer Services,13821379,36,2,1,true,22,8,78034464,3,6191944,23,59,44,68
+64,15,true,2,n/a,n/a,2838196,86,3,8,true,63,13,40502577,4,31170542,68,66,37,76
+47,16,false,2,Air Freight/Delivery Services,Transportation,44100625,33,4,7,false,22,15,10374702,5,86086534,12,65,12,64
+55,8,true,2,Major Chemicals,Basic Industries,26159884,27,4,2,true,1,18,56494229,5,17065119,69,78,36,8
+42,20,true,1,Restaurants,Consumer Services,16221147,72,3,6,false,39,12,14661023,5,79716702,63,50,27,57
+42,19,true,3,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,37186677,70,3,6,false,44,8,81731715,3,31604361,37,56,28,58
+59,18,true,3,Computer Software: Prepackaged Software,Technology,13182411,27,1,8,true,32,34,31274815,5,67725180,2,93,38,84
+30,4,false,3,Marine Transportation,Transportation,15307159,1,2,6,false,69,31,41190733,5,16820567,76,83,20,14
+50,11,true,3,Ordnance And Accessories,Capital Goods,12048350,93,2,0,false,39,34,14592403,4,68131519,23,82,45,30
+44,15,true,1,Major Banks,Finance,19731663,8,1,9,false,59,23,46151408,5,94056680,49,60,29,54
+66,13,false,1,Oil & Gas Production,Energy,43751205,80,3,2,false,69,28,52133746,5,98255595,83,100,24,61
+75,18,false,2,n/a,n/a,23255017,3,3,2,true,19,35,48447154,5,64513544,68,43,16,54
+63,1,false,2,n/a,n/a,22180579,71,1,6,true,30,17,20693964,4,38491968,17,39,38,73
+56,16,false,3,n/a,n/a,44301557,90,1,7,false,4,23,3261814,4,65115447,36,88,24,64
+28,14,false,2,n/a,n/a,44978026,90,2,8,true,13,10,86178719,5,58526013,62,66,33,50
+41,16,true,1,Natural Gas Distribution,Public Utilities,11581997,50,1,8,false,56,24,71749516,4,72052245,20,53,9,22
+37,0,false,1,Medical Specialities,Health Care,31604514,82,1,4,false,38,16,62284736,3,57114352,46,46,6,17
+38,5,false,3,Finance/Investors Services,Finance,20540887,93,1,6,true,49,15,34068746,3,75135371,35,51,35,78
+71,0,false,1,n/a,n/a,16076826,22,2,10,true,44,32,60407067,4,79409003,23,84,36,52
+45,2,false,2,Electrical Products,Capital Goods,20694010,37,4,6,true,48,18,71043328,4,98272127,83,94,19,85
+57,15,false,2,Computer peripheral equipment,Technology,32412708,62,4,10,false,49,30,15419206,5,41261096,42,33,7,82
+75,10,false,2,Transportation Services,Consumer Services,12607690,74,4,6,true,33,19,22257947,5,36957912,23,57,16,45
+39,9,true,2,Industrial Machinery/Components,Capital Goods,43129914,56,4,0,false,41,19,75640014,5,71986458,48,63,32,39
+70,3,true,1,n/a,n/a,6596184,86,2,0,true,69,5,17548371,3,40915514,77,86,26,36
+24,16,false,1,n/a,n/a,37961312,59,4,0,false,53,29,50786080,3,96998901,74,46,8,73
+27,19,false,1,Property-Casualty Insurers,Finance,23830166,97,4,4,false,26,5,41000529,4,13719692,37,68,24,36
+22,3,true,3,Semiconductors,Technology,49846816,17,2,7,true,11,3,97767377,5,1379341,84,88,32,25
+57,10,false,1,Electric Utilities: Central,Public Utilities,19839352,69,2,4,true,10,8,44740403,5,30965766,79,56,37,86
+19,10,false,2,n/a,n/a,47163410,22,2,9,true,66,18,43280173,5,58803669,7,100,7,19
+47,16,true,2,Industrial Machinery/Components,Miscellaneous,23362241,63,2,2,true,21,15,14421349,3,60346782,50,73,28,42
+21,12,true,3,Oilfield Services/Equipment,Energy,42028854,8,4,7,true,26,4,21088500,5,65773950,23,35,12,84
+24,10,true,2,Catalog/Specialty Distribution,Consumer Services,32625725,10,1,8,false,16,33,1744007,4,40735097,92,55,31,15
+62,9,true,1,Oil & Gas Production,Energy,15263678,37,2,4,false,70,30,1704189,5,71470553,53,87,42,11
+26,4,false,3,Electrical Products,Capital Goods,11297237,59,1,10,true,52,28,4959068,4,49673192,43,37,19,45
+73,4,true,1,Savings Institutions,Finance,11782277,28,1,6,false,33,35,45101990,4,79863451,73,36,32,85
+36,6,true,1,Mining & Quarrying of Nonmetallic Minerals (No Fuels),Basic Industries,20728477,88,1,3,true,19,5,76770230,3,31430809,91,94,45,6
+62,15,true,2,Major Pharmaceuticals,Health Care,17428029,70,4,6,false,67,19,34126740,5,81200987,63,36,13,57
+74,17,false,1,Real Estate Investment Trusts,Consumer Services,13391102,72,2,2,true,11,34,27837299,4,31388791,84,33,5,77
+18,3,false,2,Forest Products,Basic Industries,34116390,93,4,7,true,66,26,4020938,3,94896092,5,37,20,81
+58,14,true,2,Industrial Machinery/Components,Technology,45234195,64,1,4,false,16,1,76187754,5,28667219,13,46,34,84
+27,3,true,1,Major Banks,Finance,35109681,56,1,1,true,62,29,61696899,4,81593277,44,92,35,61
+69,0,true,1,Computer Software: Prepackaged Software,Technology,18744311,73,1,9,false,7,11,57143441,3,61064133,8,99,31,12
+22,15,true,1,Major Pharmaceuticals,Health Care,24670751,12,3,8,false,5,11,59154531,5,905240,5,59,18,53
+47,17,true,1,Business Services,Finance,14025143,2,1,0,false,64,13,42604486,3,61726286,61,51,29,83
+25,7,true,1,Miscellaneous manufacturing industries,Consumer Durables,23716908,50,2,6,false,51,33,29413324,5,51924850,29,38,10,79
+36,12,false,2,Oil & Gas Production,Energy,3108583,55,2,6,true,61,30,28334629,4,54284942,30,47,38,25
+20,0,false,1,Packaged Foods,Consumer Non-Durables,8595611,5,1,10,false,38,2,92943830,5,34267975,38,42,15,79
+24,1,true,2,Television Services,Consumer Services,32847617,53,4,1,false,35,4,82517294,5,36342319,24,50,11,72
+19,0,false,3,Biotechnology: Electromedical & Electrotherapeutic Apparatus,Health Care,16282015,80,1,1,true,37,19,66947258,4,38350589,49,59,14,57
+60,7,true,3,n/a,n/a,10904277,85,1,5,true,22,19,84511124,3,86095239,8,43,27,21
+33,19,true,2,n/a,n/a,25336191,40,1,7,true,6,33,52748281,4,13051432,37,58,11,45
+18,2,true,2,n/a,n/a,11591854,34,3,10,true,25,21,67122113,5,94895774,82,41,39,10
+42,9,true,3,EDP Services,Technology,10836969,10,3,8,false,7,5,99598517,4,30064416,5,77,44,46
+58,7,true,3,Apparel,Consumer Non-Durables,19158164,2,3,8,false,35,30,85198490,3,42684407,15,48,43,11
+50,2,false,2,Real Estate,Finance,27477691,76,4,2,true,68,11,91871398,4,59148063,7,72,15,31
+20,17,false,1,Accident &Health Insurance,Finance,44681349,38,3,0,true,23,24,33075084,5,68513323,31,30,40,49
+25,15,false,3,n/a,n/a,26376207,59,3,1,true,14,3,54577654,3,27184089,6,97,33,76
+33,0,true,1,n/a,n/a,37432216,58,3,5,false,32,30,13586631,4,36497943,68,100,31,31
+55,1,true,3,n/a,n/a,15004000,72,2,0,true,62,16,76170379,4,10986427,82,40,27,20
+56,15,false,3,Telecommunications Equipment,Public Utilities,43879214,1,2,5,false,42,11,26666254,5,42340376,63,84,41,79
+74,8,true,3,Shoe Manufacturing,Consumer Non-Durables,11304533,13,1,1,false,22,7,43168651,4,24206007,80,38,21,14
+46,17,true,1,Industrial Machinery/Components,Technology,17187201,69,1,7,true,9,4,11608216,4,76240436,41,100,44,21
+46,13,true,2,Electric Utilities: Central,Public Utilities,48799200,87,4,6,true,70,14,75925552,5,40290976,70,74,39,48
+66,12,true,1,Agricultural Chemicals,Basic Industries,5007744,53,4,0,true,27,28,9164813,5,84468747,8,68,45,45
+31,6,true,3,Investment Managers,Finance,28535257,50,3,6,true,28,10,72656521,5,73945481,60,36,43,25
+37,11,false,1,Major Chemicals,Basic Industries,25085303,16,1,1,true,3,2,24789842,4,67542581,81,47,35,63
+54,5,true,1,Railroads,Capital Goods,31495633,53,3,3,true,42,14,20201187,4,31441625,53,52,31,9
+31,6,true,1,Oil & Gas Production,Public Utilities,35500617,31,4,7,true,11,1,81487837,5,65402806,18,46,26,88
+24,1,false,3,Banks,Finance,3885686,96,1,8,true,55,28,45427319,4,27150690,95,40,7,88
+23,10,true,2,Real Estate Investment Trusts,Consumer Services,18342365,23,4,7,false,38,23,90474693,5,1218416,6,55,37,33
+51,11,true,2,n/a,n/a,15475801,11,1,2,false,15,5,8188039,4,4784971,21,60,31,61
+37,12,true,3,RETAIL: Building Materials,Consumer Services,606620,77,4,0,true,49,33,57187677,5,8633042,48,75,14,78
+61,10,true,3,Business Services,Miscellaneous,26442727,9,3,8,true,45,4,82690487,5,87506574,33,93,10,42
+47,0,true,1,Consumer Electronics/Appliances,Consumer Durables,5319994,19,2,5,true,57,9,68845416,4,72543258,31,80,24,12
+18,9,false,2,EDP Services,Technology,17609471,97,1,5,true,35,7,15892255,5,58670919,18,62,5,20
+51,14,false,2,Investment Bankers/Brokers/Service,Finance,9235710,51,3,9,true,9,29,4921943,3,2944714,56,57,36,33
+70,20,false,1,Real Estate Investment Trusts,Consumer Services,4992924,36,4,10,false,69,23,2029478,3,61553604,88,30,30,10
+40,13,false,1,Major Pharmaceuticals,Health Care,13893175,81,3,0,false,56,22,69699512,5,50101067,32,30,31,84
+60,3,false,1,Major Chemicals,Basic Industries,11547290,12,4,8,true,54,11,87064860,3,52927528,7,60,40,31
+32,8,false,1,n/a,n/a,31278479,7,4,6,true,12,12,86148907,5,89311339,51,43,10,31
+42,12,true,2,Medical/Dental Instruments,Health Care,44260015,50,2,10,false,55,21,13633470,5,77513580,24,66,38,48
+35,4,false,1,Major Banks,Finance,34158561,86,4,10,true,26,8,62315517,4,94282519,29,68,41,5
+61,0,false,1,Telecommunications Equipment,Public Utilities,41351512,97,3,3,true,34,8,83185477,4,68474624,80,34,16,7
+58,3,true,2,Property-Casualty Insurers,Finance,12513479,83,1,8,true,31,12,36983881,3,29703458,30,75,9,61
+38,20,false,2,Major Chemicals,Basic Industries,43709626,39,2,0,false,29,13,10261805,5,29813615,15,57,24,86
+62,4,false,2,Packaged Foods,Consumer Non-Durables,13407098,16,4,9,false,50,28,93898401,4,90451500,38,64,18,68
+73,13,true,1,Real Estate Investment Trusts,Consumer Services,40071748,64,4,8,true,36,12,90221382,5,66255545,41,61,44,5
+34,5,true,2,Television Services,Consumer Services,21713173,52,2,2,false,23,30,33915311,3,54455352,59,76,29,12
+37,18,true,2,Major Pharmaceuticals,Health Care,47620588,31,3,8,true,51,28,50770521,5,52143851,17,54,43,87
+51,12,true,1,Office Equipment/Supplies/Services,Consumer Durables,42513851,85,2,0,true,56,25,70677225,3,1832267,48,77,45,59
+32,5,false,3,Beverages (Production/Distribution),Consumer Non-Durables,24619055,75,1,7,false,21,23,27955339,3,58268477,48,94,36,60
+49,16,true,2,Industrial Specialties,Capital Goods,43070930,82,4,4,true,15,21,48253569,5,44840440,70,73,13,92
+43,1,true,3,Major Banks,Finance,27052458,66,2,7,false,13,34,73041507,4,72060614,27,80,30,71
+75,18,false,1,Savings Institutions,Finance,32898528,11,1,0,false,53,17,78647776,5,26279801,39,69,32,69
+25,7,true,2,Industrial Machinery/Components,Capital Goods,2446723,28,3,4,false,34,30,8431152,4,63327620,35,84,32,22
+35,3,true,2,n/a,n/a,34633306,79,4,3,false,46,19,70232763,3,97859734,37,62,22,78
+65,5,true,1,Integrated oil Companies,Energy,30969204,71,2,5,false,25,30,18203386,5,58320071,60,45,45,69
+44,4,false,3,Major Banks,Finance,48607670,13,1,4,false,64,35,78837272,5,24231599,41,66,25,56
+75,3,false,2,EDP Services,Technology,29790640,97,1,5,false,48,13,77490874,4,27333141,83,49,26,59
+66,12,false,1,Recreational Products/Toys,Consumer Non-Durables,11592369,6,1,4,false,40,12,66923946,5,96482673,62,46,6,72
+28,9,true,3,Hospital/Nursing Management,Health Care,6752702,58,1,2,true,48,20,46091775,4,38621474,49,69,6,83
+22,9,false,1,Telecommunications Equipment,Public Utilities,9774932,46,4,2,false,29,6,14555171,3,65031294,92,71,40,65
+61,10,true,2,Other Consumer Services,Consumer Services,22745723,18,2,8,false,3,19,57831062,4,34821497,68,70,5,44
+55,18,false,3,Metal Fabrications,Capital Goods,39262917,73,1,6,false,29,9,63928783,3,32481118,50,42,24,61
+25,17,false,3,Finance: Consumer Services,Finance,48659654,55,3,7,false,52,27,86704157,5,68534242,33,61,44,5
+49,7,false,2,RETAIL: Building Materials,Consumer Services,31691974,30,3,9,true,52,12,41128424,3,23652736,89,32,23,19
+74,5,false,2,n/a,n/a,17052867,22,2,5,false,8,35,82656558,3,38055481,75,89,11,79
+24,1,true,2,EDP Services,Technology,41845286,45,2,5,true,53,29,76910288,3,52100461,27,31,42,83
+25,4,false,1,Major Banks,Finance,1078673,44,2,10,true,40,30,8102181,4,8478847,17,78,21,17
+46,2,false,1,n/a,n/a,6599739,45,2,7,false,46,9,32473222,5,90269145,90,52,19,39
+59,3,false,3,Major Banks,Finance,40358281,28,1,7,true,69,24,44335105,4,39847323,52,35,37,34
+45,15,true,2,EDP Services,Technology,24024625,70,4,0,true,54,4,58455970,3,71511675,33,84,34,64
+59,12,true,3,Electrical Products,Consumer Durables,16739901,50,4,2,false,6,5,60814838,4,87005373,73,50,8,7
+39,19,true,2,Other Specialty Stores,Consumer Services,24115581,36,4,10,true,13,27,41156026,4,11518868,11,44,16,54
+70,8,false,2,Major Pharmaceuticals,Health Care,25678923,80,2,9,true,63,31,51530190,5,47625838,73,92,43,90
+43,9,true,3,n/a,n/a,40852210,36,1,9,true,49,18,37615186,3,89534097,64,49,11,64
+33,10,false,1,Finance: Consumer Services,Finance,43580518,49,2,7,true,63,35,23341980,5,50261991,52,71,17,30
+19,8,true,3,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,29516841,60,4,4,false,66,24,24990189,3,35302650,43,53,45,11
+34,4,true,2,n/a,n/a,35713789,8,1,2,true,69,34,82617645,4,84148317,87,50,20,54
+34,17,false,3,Recreational Products/Toys,Consumer Non-Durables,10045585,67,4,2,false,7,27,99392962,3,68162109,63,58,31,80
+66,16,false,2,Miscellaneous manufacturing industries,Consumer Durables,10907477,83,1,2,true,68,31,37843982,5,90068144,33,35,32,10
+25,12,false,3,Real Estate,Finance,36197850,72,2,10,true,63,32,54168444,5,80887660,63,92,34,64
+29,2,false,3,n/a,n/a,22101132,73,3,7,true,66,3,3117414,3,25617359,87,76,22,89
+21,3,true,1,n/a,n/a,8144919,70,4,4,true,39,34,31509353,5,42076041,3,61,26,80
+65,12,true,1,Real Estate,Finance,6191935,14,4,6,true,1,4,73121466,5,57531376,71,34,17,65
+72,7,false,1,Clothing/Shoe/Accessory Stores,Consumer Services,8698837,45,1,9,true,61,17,65358574,3,91201031,60,72,23,52
+57,4,false,1,n/a,n/a,10809280,63,3,2,true,20,1,92955983,5,67548355,59,30,44,8
+34,4,true,1,Real Estate Investment Trusts,Consumer Services,10265337,40,4,1,true,24,25,15598589,5,56363471,59,34,16,74
+30,14,true,2,Farming/Seeds/Milling,Consumer Services,23868196,36,4,1,false,59,33,70965670,5,90940378,53,70,35,35
+21,9,false,2,Finance: Consumer Services,Finance,41605644,79,2,6,false,14,9,60229996,4,71878757,8,48,32,41
+56,16,true,3,"Computer Software: Programming, Data Processing",Technology,35785637,30,3,2,true,50,28,58717288,3,89866307,74,96,39,11
+70,19,false,3,Banks,Finance,42242516,23,3,1,false,48,25,64003073,4,75443308,18,71,28,11
+25,6,true,1,Medical Specialities,Health Care,23798545,51,4,6,true,29,17,82077208,3,86008394,69,62,26,32
+45,17,false,1,Investment Managers,Finance,25310792,62,3,3,true,63,6,43971805,5,56606524,23,71,16,72
+32,16,true,3,n/a,n/a,9671857,37,1,3,false,6,27,64317876,5,34597457,67,84,39,54
+40,16,false,2,n/a,n/a,8266872,67,3,0,true,61,4,3511396,5,29642001,81,90,31,62
+36,15,true,3,Major Pharmaceuticals,Health Care,44486366,5,3,0,false,62,27,53685151,5,22200829,36,95,21,32
+19,0,true,2,Major Banks,Finance,20262420,57,1,10,false,70,15,20371637,3,18593057,62,46,39,87
+58,14,true,1,Metal Fabrications,Basic Industries,41086070,18,2,9,false,28,27,60013662,4,70282249,41,80,25,53
+41,16,true,3,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,471729,82,1,7,false,16,21,64558115,5,41180503,38,76,14,16
+51,1,true,1,Property-Casualty Insurers,Finance,5276589,87,4,3,true,34,32,59781323,3,67570427,70,74,34,81
+44,15,false,3,Specialty Chemicals,Consumer Durables,1895703,81,3,7,true,35,2,62804462,4,64944235,17,68,11,71
+33,8,true,3,Major Pharmaceuticals,Health Care,33898545,45,2,1,false,3,11,12965791,4,48624033,92,47,7,79
+70,13,true,1,Specialty Chemicals,Consumer Durables,44613165,71,2,0,true,10,11,96655297,4,76559401,64,85,16,63
+41,13,true,3,Power Generation,Public Utilities,2743522,19,2,5,true,64,19,31212004,3,40138793,25,40,35,61
+39,5,false,2,Major Pharmaceuticals,Health Care,5676610,24,1,6,false,27,3,43634744,3,13726212,70,87,24,5
+19,6,false,2,Telecommunications Equipment,Public Utilities,5003582,66,2,0,true,27,16,1400053,4,52731922,26,80,43,9
+50,19,true,3,Automotive Aftermarket,Consumer Durables,37713312,65,3,0,true,7,31,42893793,3,10521155,94,87,43,87
+71,6,false,3,Beverages (Production/Distribution),Consumer Non-Durables,1163052,84,4,1,false,24,28,93086040,5,1252297,11,91,43,87
+30,0,true,1,Meat/Poultry/Fish,Consumer Non-Durables,2159474,45,3,8,false,45,12,43543284,5,88868963,17,74,42,48
+59,11,true,3,Semiconductors,Technology,30801023,19,3,6,true,56,3,17679459,5,66281866,1,59,38,49
+46,17,true,2,Oil & Gas Production,Public Utilities,33222082,60,2,3,false,49,9,23587844,3,73716691,3,68,32,10
+71,6,true,2,Other Pharmaceuticals,Health Care,7791221,28,4,7,false,9,23,47858647,5,41170922,78,93,31,25
+43,3,false,3,Specialty Chemicals,Consumer Durables,49692177,17,4,6,false,46,29,52153143,4,10187274,23,31,7,39
+55,19,false,1,Hospital/Nursing Management,Health Care,41947773,76,1,7,false,15,4,3575975,5,16374279,20,78,26,33
+73,5,false,1,Broadcasting,Consumer Services,24258905,68,3,6,false,64,20,84272350,3,14812970,54,71,17,15
+71,7,true,3,Electric Utilities: Central,Public Utilities,23762918,54,3,7,false,17,10,2365112,3,74862177,83,64,37,46
+75,8,true,3,Apparel,Consumer Non-Durables,49759325,70,4,2,false,35,21,2196690,5,16547000,73,37,31,11
+75,6,false,3,Biotechnology: Commercial Physical & Biological Resarch,Health Care,9542071,58,4,2,true,46,25,68722673,3,90245299,16,84,19,86
+75,0,true,2,Major Pharmaceuticals,Health Care,3799433,74,4,0,false,17,5,14392179,4,30341701,55,62,33,36
+51,4,true,3,EDP Services,Technology,9201140,64,1,8,true,34,19,30662567,4,85230115,44,42,14,78
+71,17,true,1,Business Services,Finance,19228109,5,3,2,false,30,14,1394069,5,70395210,36,47,43,21
+72,18,false,3,n/a,n/a,8930614,93,4,2,true,52,9,99860538,5,69158018,87,82,40,37
+27,13,false,1,Restaurants,Consumer Services,8902168,66,3,5,false,45,3,24906411,4,34689633,4,68,25,89
+36,12,true,2,n/a,n/a,49999036,42,3,9,true,41,5,65092239,4,71278435,18,58,45,68
+32,4,true,2,n/a,n/a,14118065,23,2,8,true,41,9,83309762,3,83250558,9,70,17,61
+24,16,true,3,n/a,n/a,34051220,24,4,2,true,29,24,90781751,5,4387240,83,81,41,22
+41,10,true,1,n/a,n/a,30944409,11,4,9,false,41,6,45201167,5,19204415,48,72,44,89
+58,6,true,2,Precious Metals,Basic Industries,34928904,96,1,9,false,49,31,38656532,3,99071588,57,92,30,51
+49,13,false,2,n/a,n/a,38508703,4,3,10,true,39,21,41143393,4,86935115,72,100,45,51
+35,7,false,1,Business Services,Finance,29304402,15,2,8,false,7,21,87408751,3,48881872,93,90,28,88
+74,5,true,2,Hotels/Resorts,Consumer Services,20192316,76,4,2,false,59,32,96506621,5,58085284,59,94,17,40
+24,14,true,2,n/a,n/a,20930098,78,1,5,false,53,21,38243089,5,37060846,49,84,18,11
+65,1,false,3,Real Estate,Finance,6532380,16,2,4,true,43,15,73685635,5,87676826,61,76,31,10
+34,18,false,1,n/a,n/a,21872830,96,2,10,false,24,34,13589453,4,66455689,4,52,36,36
+53,10,true,2,Major Pharmaceuticals,Health Care,43867358,68,2,10,false,25,22,31424899,5,82447895,41,59,37,90
+33,4,true,2,Farming/Seeds/Milling,Consumer Non-Durables,43683152,60,1,10,false,55,3,79513713,5,41729734,29,81,22,27
+31,9,true,2,Investment Bankers/Brokers/Service,Finance,38242553,82,3,9,false,50,12,54710577,5,35724721,32,94,8,88
+43,14,true,1,Services-Misc. Amusement & Recreation,Consumer Services,41019840,17,4,3,false,2,29,71888143,4,65837108,76,58,27,27
+42,7,false,2,Real Estate,Finance,47441770,50,2,5,false,55,7,11134934,3,46130332,10,56,22,92
+67,19,false,3,n/a,n/a,25900102,86,1,9,true,1,33,53036953,3,77690,49,83,22,7
+59,5,true,3,Investment Managers,Finance,23132243,67,3,8,true,53,21,65821292,4,44969685,93,95,27,66
+21,10,false,3,n/a,n/a,13247313,1,4,3,false,65,7,12740886,3,45589849,17,30,21,93
+21,11,true,1,Clothing/Shoe/Accessory Stores,Consumer Services,7329755,14,4,4,false,30,33,22371048,5,34463745,92,40,40,31
+34,3,false,1,Farming/Seeds/Milling,Consumer Non-Durables,31210368,27,3,1,false,58,23,73638922,3,85134305,39,95,15,14
+52,11,true,1,Real Estate Investment Trusts,Consumer Services,44670291,72,1,3,true,44,17,67016731,3,5087842,33,49,38,27
+53,17,false,1,Savings Institutions,Finance,4019671,65,3,4,true,23,26,97777836,5,17036316,71,58,18,27
+64,2,false,1,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,29881524,6,1,2,true,50,27,50600181,4,80768836,41,36,22,75
+35,6,true,3,Telecommunications Equipment,Consumer Durables,13618915,28,2,10,false,9,26,87348827,3,5197863,53,76,30,82
+57,18,true,2,Other Transportation,Transportation,37769049,65,1,10,true,41,33,23273273,5,80779616,76,98,45,78
+69,13,true,3,Real Estate Investment Trusts,Consumer Services,30996708,40,2,9,true,63,20,13602222,3,67481351,15,84,25,37
+75,14,false,3,Major Chemicals,Basic Industries,30409441,89,2,0,true,46,5,90105717,5,22773214,44,42,20,9
+35,7,false,3,Restaurants,Consumer Services,10078181,33,4,1,true,45,7,43530991,4,16704150,54,83,19,7
+38,9,true,2,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,46935012,89,2,4,true,39,35,61018028,4,5862549,94,67,37,67
+69,11,false,1,Biotechnology: Commercial Physical & Biological Resarch,Health Care,14522575,22,4,8,false,65,1,21215686,4,46854328,87,66,26,10
+56,3,false,1,Biotechnology: Biological Products (No Diagnostic Substances),Health Care,37873388,8,3,6,false,63,1,85654916,5,28255260,44,43,35,89
+51,12,true,3,n/a,n/a,35780664,15,1,6,true,13,21,22756302,4,83675810,83,66,34,81
+43,4,true,1,Property-Casualty Insurers,Finance,46544711,7,3,1,true,25,26,17189728,3,10877382,65,34,35,30
+58,0,true,1,n/a,n/a,37151473,97,1,7,true,61,21,94584221,3,67472600,79,57,35,14
+21,2,true,3,Metal Fabrications,Energy,5409640,100,4,5,false,45,28,33852235,5,96916131,86,30,29,40
+39,8,true,1,n/a,n/a,45954295,80,1,10,false,69,26,16471321,5,95673014,47,57,36,95
+38,16,false,3,Business Services,Finance,35126390,46,4,4,true,12,9,3492011,3,77507102,18,92,25,29
+60,20,true,3,n/a,n/a,32528328,48,2,4,false,17,3,90435454,4,2748269,45,33,28,81
+63,14,true,2,Real Estate Investment Trusts,Consumer Services,36032071,71,1,0,true,47,31,26430088,5,49029045,44,98,14,36
+34,15,true,1,Business Services,Finance,47592011,63,2,10,true,39,14,47190486,5,1201219,31,45,43,42
+71,1,true,2,Computer Software: Prepackaged Software,Technology,30304608,5,2,9,false,66,25,61757775,5,91737324,56,66,33,21
+71,11,false,3,Major Pharmaceuticals,Health Care,30288402,32,1,0,false,57,4,41369966,3,55806170,63,48,44,6
+68,2,false,2,RETAIL: Building Materials,Consumer Services,16719987,28,3,2,true,18,15,52870968,5,89201879,33,82,38,16
+46,1,true,1,n/a,n/a,46404474,85,3,2,true,17,31,36012868,5,35249088,27,93,9,74
+50,10,true,1,Business Services,Finance,18615832,33,1,1,false,22,16,79165024,3,87052349,1,86,42,76
+61,19,false,2,Medical/Nursing Services,Health Care,36313678,13,3,8,false,59,34,29415997,3,58907523,80,41,40,95
+61,5,false,2,Investment Bankers/Brokers/Service,Finance,4952805,24,2,10,true,11,9,63127057,3,47216328,32,58,13,74
+34,6,false,1,Newspapers/Magazines,Consumer Services,37252264,37,4,0,false,53,2,48815367,4,34119092,9,34,28,51
+53,12,false,2,Aluminum,Basic Industries,38230144,89,2,8,false,3,17,32260780,3,15577316,12,48,27,22
+29,2,false,1,Major Banks,Finance,17357773,2,3,3,true,12,12,68367274,5,4344447,90,88,7,40
+29,8,true,2,Business Services,Finance,20046184,31,1,3,true,38,19,54121524,3,47134077,50,38,18,70
+44,13,true,2,n/a,n/a,16114492,49,3,7,true,64,34,3297228,3,5489592,55,55,43,49
+37,19,true,2,n/a,n/a,10254784,87,3,7,true,67,31,39600981,4,81331884,70,52,16,23
+25,2,true,1,Apparel,Consumer Non-Durables,22691447,53,4,10,true,15,15,42022880,4,52508282,39,100,44,68
+67,10,false,3,n/a,n/a,46980616,37,3,2,false,63,4,30556149,5,28207516,56,66,44,35
+50,10,true,1,Department/Specialty Retail Stores,Consumer Services,16224290,50,1,4,false,2,4,73142243,3,46699860,64,96,36,66
+69,5,true,3,Auto Manufacturing,Capital Goods,27962684,72,1,1,true,48,15,15678666,5,3786747,39,82,21,47
+19,11,true,2,Industrial Machinery/Components,Capital Goods,33610996,13,2,2,true,58,1,51724406,3,45786077,54,48,35,65
+54,6,true,3,Restaurants,Consumer Services,1669954,18,1,5,false,35,21,3382947,4,86705315,13,39,6,91
+72,13,true,3,Major Pharmaceuticals,Health Care,11512307,40,4,1,true,30,12,76738238,3,55951127,85,43,20,46
+20,7,false,2,n/a,n/a,6303806,86,3,4,true,27,2,6213926,3,23388521,79,78,23,28
+55,10,true,1,Power Generation,Public Utilities,29967808,13,2,6,true,43,13,24468714,3,99763954,45,97,9,10
+63,17,false,2,Business Services,Finance,4706260,32,3,0,false,2,13,78035354,5,10330805,7,85,16,45
+40,12,true,3,Major Pharmaceuticals,Health Care,42920948,76,2,2,false,27,11,2331708,4,51101887,15,76,17,9
+32,18,false,3,Major Banks,Finance,8374976,78,1,6,false,41,24,23606051,3,20570039,41,67,26,44
+74,4,true,1,Telecommunications Equipment,Public Utilities,12337510,84,4,1,true,24,26,4669259,3,58745429,7,75,6,35
+18,4,false,1,Investment Managers,Finance,30892206,36,4,4,false,58,27,2036824,5,56512058,67,51,32,82
+44,13,false,2,Major Banks,Finance,31993997,99,2,0,true,15,3,48935997,5,63847795,1,31,38,42
+21,8,false,3,n/a,n/a,30095944,46,1,7,false,51,12,78230091,4,31825933,8,51,30,57
+37,19,true,3,Broadcasting,Consumer Services,41044938,25,1,8,false,50,11,62185887,5,17827931,13,62,26,81
+65,17,false,3,Oil & Gas Production,Energy,1485556,84,3,2,false,3,3,9292634,4,74748309,37,32,29,73
+62,8,false,3,n/a,n/a,18918392,28,3,2,true,36,3,67070763,5,18504892,43,72,38,74
+54,6,false,2,Precious Metals,Basic Industries,19073738,54,1,1,false,17,33,48526399,3,46233155,78,53,30,29
+67,16,true,1,Computer Communications Equipment,Technology,23514728,98,1,8,true,27,8,91603821,5,60776303,75,36,35,80
+47,3,false,1,EDP Services,Technology,1817576,15,2,0,false,54,29,7072903,4,92371482,2,66,39,62
+61,12,true,1,Metal Fabrications,Consumer Durables,1264326,26,3,2,true,37,23,33027382,5,70168860,10,38,34,17
+24,20,false,2,Industrial Specialties,Health Care,17117107,46,2,10,true,52,21,3703470,5,43934123,50,100,43,38
+48,5,false,1,Radio And Television Broadcasting And Communications Equipment,Technology,9221566,8,3,1,false,70,7,54988763,4,12344110,69,34,34,76
+71,16,true,2,Banks,Finance,22704225,2,1,0,false,39,30,2841435,5,54012557,73,71,29,77
+29,8,true,3,Electrical Products,Capital Goods,15983731,63,4,1,true,55,31,96169854,3,94342056,10,37,40,35
+37,13,true,1,Industrial Machinery/Components,Capital Goods,18320776,44,1,3,false,63,24,8862873,4,1048981,93,56,15,37
+75,1,false,3,Telecommunications Equipment,Consumer Non-Durables,17850072,20,2,3,true,57,24,61403966,5,44973493,80,83,8,84
+19,19,false,3,Telecommunications Equipment,Consumer Durables,46153542,73,3,0,true,13,19,4186715,3,64193782,65,30,41,70
+37,17,false,1,Telecommunications Equipment,Public Utilities,36239013,83,3,8,true,67,5,4110018,5,43304357,4,91,7,44
+60,2,true,3,n/a,n/a,20873962,24,4,8,true,59,28,82246786,5,57551909,12,55,5,56
+44,3,false,3,Plastic Products,Consumer Non-Durables,40293624,16,2,3,false,38,19,76215845,5,36241793,32,67,32,92
+55,10,true,3,Professional Services,Consumer Services,10938247,36,3,10,false,8,32,41940548,3,80791275,9,93,39,66
+34,0,true,2,Homebuilding,Capital Goods,43130590,19,3,3,false,5,13,3600606,5,74054113,64,70,43,39
+49,12,true,3,Publishing,Consumer Services,44217972,41,2,9,false,28,14,10944168,5,86820938,11,75,41,36
+19,4,true,2,Catalog/Specialty Distribution,Consumer Services,36616156,96,1,4,false,27,32,67292236,3,305081,46,77,21,24
+58,1,true,2,Major Pharmaceuticals,Health Care,22245260,26,2,10,true,66,7,19881489,4,71173157,10,55,15,72
+19,9,false,3,Investment Bankers/Brokers/Service,Finance,31529187,41,1,0,false,42,3,68127377,5,27342273,87,97,29,25
+62,14,true,3,Electric Utilities: Central,Public Utilities,27957907,62,3,10,true,56,33,12611086,3,55864870,15,55,43,60
+23,14,true,1,n/a,n/a,26904824,90,3,0,false,8,33,33743556,3,2782827,3,54,44,31
+26,13,false,1,n/a,n/a,49086047,94,1,5,false,22,17,42776207,5,45408338,40,43,25,27
+61,12,true,3,Biotechnology: In Vitro & In Vivo Diagnostic Substances,Health Care,31303949,58,1,5,true,48,5,19064835,4,75470227,39,55,13,61
+37,13,false,3,n/a,n/a,44884217,1,4,6,true,43,22,51795720,4,41925507,95,67,7,40
+38,0,true,3,n/a,n/a,1711016,69,1,4,false,50,7,41602372,5,55638340,28,35,7,16
+68,15,true,1,Telecommunications Equipment,Consumer Services,40654447,9,1,8,true,4,6,77746073,5,75610978,33,71,45,69
+24,4,true,1,"Computer Software: Programming, Data Processing",Technology,47804455,63,3,0,false,2,18,35692310,4,16545502,55,71,34,14
+70,19,false,1,Consumer Electronics/Video Chains,Consumer Services,37137764,72,4,6,false,10,18,18174075,5,79086869,26,100,20,26
+18,20,false,2,Catalog/Specialty Distribution,Consumer Services,25722812,43,1,8,false,8,35,98638100,4,11164347,87,61,25,47
+63,10,false,3,Marine Transportation,Transportation,31588981,16,3,6,false,16,3,85354771,4,63153461,33,43,12,49
+27,16,false,2,"Computer Software: Programming, Data Processing",Technology,45990044,27,4,8,false,18,4,86321128,4,70374723,84,95,10,62
+44,13,false,3,n/a,n/a,32018154,7,3,10,true,66,2,18650201,5,76353182,73,72,10,88
+24,1,false,1,Coal Mining,Energy,11531697,88,2,1,false,49,12,25089085,5,29351183,28,100,39,92
+66,10,true,1,Computer Software: Prepackaged Software,Technology,37196104,3,3,10,false,63,19,69793465,4,34225168,24,89,34,15
+25,15,false,2,Major Banks,Finance,1123874,42,3,10,true,19,22,35867124,4,64441105,18,37,13,47
+22,11,false,3,n/a,n/a,5255051,11,4,0,true,13,9,5027807,4,99585720,16,79,35,25
+68,11,true,1,Oil & Gas Production,Energy,42601836,11,2,4,true,19,3,18949351,5,81858164,64,94,11,79
+41,2,false,2,Telecommunications Equipment,Public Utilities,46006034,28,2,7,true,50,22,13351724,5,77621352,26,78,42,13
+59,7,false,3,Building Materials,Capital Goods,9948290,51,2,7,false,5,30,30847316,5,16652508,36,89,23,15
+68,5,false,2,Textiles,Basic Industries,39380610,53,1,3,false,22,26,49066541,4,60351795,62,61,30,57
+72,10,true,3,Major Banks,Finance,25751226,71,3,0,false,24,30,4774351,3,73956165,65,75,18,50
+65,12,true,3,Miscellaneous manufacturing industries,Consumer Durables,47813069,64,2,2,false,7,3,93360356,3,67957398,89,45,32,23
+39,18,false,1,Multi-Sector Companies,Miscellaneous,38626321,79,4,7,false,1,29,66534610,4,5609698,59,84,11,66
+63,1,false,2,Industrial Specialties,Consumer Durables,17406534,54,4,2,false,9,26,17127873,4,7997143,38,97,7,21
+18,17,false,1,Electrical Products,Capital Goods,24857502,29,3,1,false,34,11,60558599,5,77177947,73,53,44,58
+72,1,false,3,n/a,n/a,39164319,35,1,8,true,25,2,81078876,5,10654146,56,69,43,6
+20,4,false,1,n/a,n/a,33122722,93,4,1,true,31,11,41553432,3,38850209,60,69,18,21
+39,14,false,3,Biotechnology: Commercial Physical & Biological Resarch,Health Care,25421617,53,1,1,true,20,5,17736949,5,78444008,81,84,30,18
+73,5,true,1,Services-Misc. Amusement & Recreation,Consumer Services,2496779,75,4,10,true,14,31,2842808,3,79476432,4,79,18,38
+26,12,true,3,n/a,n/a,35742067,88,1,1,true,46,33,5306213,3,65261902,83,31,23,55
+42,1,true,3,Other Specialty Stores,Consumer Services,25589350,2,2,5,true,28,27,98926063,4,22946816,93,85,15,35
+68,19,false,3,n/a,n/a,39324110,50,2,2,false,13,28,55024172,4,30163982,37,81,37,9
+21,17,true,2,Broadcasting,Consumer Services,44363150,92,3,4,true,34,22,11496331,4,5756942,79,74,37,72
+38,17,true,3,n/a,n/a,19790750,30,4,0,false,65,20,10923545,5,83215310,93,50,32,69
+32,18,true,2,Real Estate Investment Trusts,Consumer Services,14087166,22,3,7,false,52,24,88254281,3,94904755,26,90,16,53
+72,14,true,3,Semiconductors,Technology,460495,52,3,10,true,40,5,85174285,4,16695602,15,63,14,6
+33,6,true,3,Industrial Machinery/Components,Capital Goods,12032960,23,1,8,false,31,5,35170532,5,91384910,14,39,8,7
+68,6,false,1,Department/Specialty Retail Stores,Consumer Services,34979337,93,2,5,true,18,11,53813650,5,20235008,3,67,19,12
+20,3,true,3,Computer peripheral equipment,Technology,10117644,38,1,4,false,66,20,98007955,5,57011893,27,35,35,56
+34,9,false,1,Major Banks,Finance,8377824,62,2,4,true,24,12,90889629,5,46692944,29,73,8,71
+31,20,true,2,Real Estate,Finance,30982215,3,4,8,true,50,28,15613491,3,80356904,6,87,5,86
+69,10,false,1,Homebuilding,Capital Goods,3190183,41,3,10,true,18,33,72426427,5,12280147,73,63,19,29
+56,2,true,1,Business Services,Finance,44371593,17,2,10,false,61,6,25770720,4,61518577,74,94,13,90
+26,0,true,3,Industrial Machinery/Components,Energy,265760,89,1,1,true,27,20,2203129,3,41195881,12,94,44,63
+60,11,true,2,Major Pharmaceuticals,Health Care,19017133,95,4,5,true,12,20,13021773,3,49954719,35,93,38,79
+39,19,false,1,n/a,n/a,20955535,6,4,1,false,46,17,59234134,4,44078377,63,65,31,44
+70,18,false,1,Real Estate Investment Trusts,Consumer Services,22252696,69,2,3,false,4,8,38670575,4,96196123,71,87,27,36
+71,6,true,3,Marine Transportation,Transportation,41157109,46,2,8,true,52,18,69000030,3,92600472,41,51,5,55
+44,8,true,2,Hotels/Resorts,Consumer Services,20068914,73,4,2,false,6,25,67976526,3,26719338,77,57,25,62
+72,19,false,2,Oil & Gas Production,Energy,21865829,78,3,2,true,10,20,54220807,5,50967524,50,53,7,71
+70,10,true,3,n/a,n/a,16367293,74,1,9,false,67,26,27902511,5,37034314,63,31,42,48
+48,0,false,1,Computer Software: Prepackaged Software,Technology,42593060,42,1,9,true,48,15,49535477,3,82692888,44,88,21,92
+19,4,true,2,Major Pharmaceuticals,Health Care,40865318,64,1,0,true,3,22,62124337,5,68082951,21,93,8,76
+27,2,true,1,Business Services,Finance,40352213,76,3,3,true,39,3,16775325,3,49943477,79,53,7,82
+75,11,false,2,Clothing/Shoe/Accessory Stores,Consumer Services,28736175,39,3,9,true,32,2,51312174,4,24048237,72,61,33,53
+41,0,true,2,Property-Casualty Insurers,Finance,47009511,60,4,2,false,24,33,85681177,3,66787474,12,93,17,62
+66,6,true,2,Major Banks,Finance,11660009,83,3,1,true,61,32,32259455,4,63515545,81,80,31,5
+48,16,false,1,Catalog/Specialty Distribution,Consumer Services,21362866,13,4,5,false,70,9,27949610,4,39826836,53,84,5,5
+58,11,false,3,Office Equipment/Supplies/Services,Miscellaneous,39142734,40,4,5,true,1,3,31926674,5,69648455,34,63,32,76
+35,7,true,1,Major Pharmaceuticals,Health Care,11671731,3,3,5,true,68,17,70247219,4,33713507,43,60,35,33
+74,15,false,3,n/a,n/a,48805963,10,3,3,false,29,25,37280271,3,2915407,71,40,30,77
+58,9,false,1,Restaurants,Consumer Services,46171905,88,2,9,false,64,16,3553445,3,61610852,19,79,24,88
+32,0,false,3,Computer Software: Prepackaged Software,Technology,5365651,92,3,9,false,69,3,89042866,5,24434054,77,50,31,36
+33,5,false,2,n/a,n/a,35752996,60,1,8,true,7,18,84802768,3,88528128,65,90,21,14
+36,8,true,1,Semiconductors,Technology,12105776,59,1,3,false,54,27,40513463,4,33938332,60,53,13,51
+73,5,true,2,"Computer Software: Programming, Data Processing",Technology,25612274,37,2,3,false,26,22,8344373,3,58182270,94,80,37,44
+44,3,false,1,n/a,n/a,47337502,86,4,6,false,22,33,93606144,5,87490458,70,72,31,75
+42,4,false,1,Telecommunications Equipment,Public Utilities,46306510,16,4,4,true,47,28,92640053,3,30641479,90,55,15,59
+68,12,false,1,Fluid Controls,Capital Goods,5177385,65,4,0,false,29,14,14271310,3,19252684,19,54,23,68
+67,7,false,3,EDP Services,Technology,46607083,59,2,4,true,3,29,7800516,4,17297326,59,95,13,39
+43,18,false,1,Major Banks,Finance,21143865,90,3,2,false,68,14,55431223,4,33574650,47,44,31,95
+23,15,false,1,n/a,n/a,6944961,5,3,0,false,63,26,63778592,3,85031903,83,95,26,92
+47,8,true,3,Electric Utilities: Central,Public Utilities,34231323,76,2,7,false,18,25,19757200,4,96903563,2,59,38,35
+31,4,true,1,Paints/Coatings,Basic Industries,31512385,70,4,6,false,12,20,73362081,4,64884566,21,77,38,49
+25,6,false,1,Industrial Machinery/Components,Miscellaneous,13349175,85,4,2,true,6,25,10912402,5,49336559,23,94,14,93
+54,9,false,1,Electrical Products,Technology,27097609,90,2,8,true,3,4,97010288,5,68152987,31,45,43,28
+66,2,false,1,Finance: Consumer Services,Finance,16262340,96,2,5,true,5,2,16606962,3,34105261,61,31,9,8
+59,13,true,1,Medical/Dental Instruments,Health Care,34045520,20,2,4,false,13,32,71008502,5,25292584,37,46,45,94
+31,12,true,3,Life Insurance,Finance,23735670,61,1,0,true,52,26,13038373,3,65985040,27,89,20,42
+70,19,true,3,n/a,n/a,23848095,59,3,4,true,25,28,21393012,4,60743668,81,100,16,32
+64,10,false,1,n/a,n/a,17953217,41,1,6,true,41,26,42846060,4,83769563,4,77,37,54
+19,0,false,2,Coal Mining,Energy,49840632,34,1,1,false,65,1,2891215,4,56096850,42,65,11,21
+41,9,false,3,Specialty Insurers,Finance,4471266,33,2,0,true,27,26,93404639,5,80260823,55,79,36,84
+58,20,false,3,Medical/Dental Instruments,Health Care,38242932,84,4,0,false,37,12,45717886,3,56011640,51,96,43,42
+55,17,false,1,Other Consumer Services,Consumer Services,1566587,20,2,7,true,70,3,78737557,5,10897914,80,61,17,53
+35,14,false,2,Beverages (Production/Distribution),Consumer Non-Durables,15670293,28,2,2,false,52,16,98972889,4,46792343,41,95,25,82
+23,4,true,3,Semiconductors,Technology,14471535,13,4,1,false,66,5,26040843,3,6055205,14,65,32,17
+69,12,true,2,Specialty Insurers,Finance,11142835,52,2,9,false,43,14,67640619,4,66563313,34,73,43,31
+23,7,false,2,Life Insurance,Finance,44675683,27,1,9,true,37,21,32186670,3,35795238,11,87,5,88
+20,14,false,2,Biotechnology: Laboratory Analytical Instruments,Capital Goods,28608052,6,4,1,true,5,17,28602570,5,27580529,28,45,13,23
+22,14,false,1,Natural Gas Distribution,Public Utilities,42781247,80,2,9,false,30,25,37943507,4,23338986,92,85,12,8
+42,13,true,1,Beverages (Production/Distribution),Consumer Non-Durables,8102893,53,4,2,false,32,16,26480289,4,70161260,28,79,19,24
+70,19,true,1,Major Banks,Finance,361667,53,3,2,true,26,7,45940417,4,17058427,44,37,25,82
+29,18,true,2,Industrial Machinery/Components,Miscellaneous,26958714,45,3,0,false,48,24,9612901,5,62583249,74,86,28,79
+37,8,true,2,Real Estate Investment Trusts,Consumer Services,2188743,85,4,10,true,66,26,73961201,4,47632634,71,33,14,86
+66,3,true,3,Diversified Commercial Services,Technology,20167257,94,1,0,false,18,24,23993981,3,16724876,87,83,7,25
+66,0,true,2,Industrial Machinery/Components,Capital Goods,12895137,73,1,2,true,63,7,71975780,3,81124065,50,49,35,87
+31,19,false,2,Professional Services,Technology,32554563,25,3,6,false,32,2,98355825,4,99604134,13,49,23,49
+18,7,false,1,Major Pharmaceuticals,Health Care,19338675,30,1,1,true,22,11,1813650,5,67763500,46,98,24,94
+43,12,false,3,Computer Software: Prepackaged Software,Technology,45465802,87,2,9,true,23,5,95635954,4,42654383,35,87,24,16
+22,7,true,3,Precision Instruments,Health Care,45660751,67,4,0,true,28,7,73789314,5,63865806,47,74,33,80
+55,19,true,3,Radio And Television Broadcasting And Communications Equipment,Technology,27258280,30,4,6,false,62,6,59394962,4,64909624,37,48,22,87
+73,19,false,3,n/a,n/a,48657599,12,1,1,false,11,19,2862519,5,13953806,69,66,36,19
+18,8,false,1,n/a,n/a,1422230,60,2,7,false,70,9,82666632,5,88959616,44,100,19,10
+41,18,true,1,Oil & Gas Production,Energy,48388783,36,3,7,true,32,14,68338580,3,59430025,13,52,44,52
+69,10,true,1,Telecommunications Equipment,Public Utilities,29645952,96,4,9,false,54,29,18165861,3,8963090,32,83,29,95
+66,15,true,1,Major Pharmaceuticals,Health Care,34071533,89,3,7,false,6,4,22720230,5,22324040,66,74,21,78
+37,9,true,1,Banks,Finance,36336384,6,3,7,true,1,22,37152931,4,44471223,1,35,40,43
+44,3,true,1,Real Estate Investment Trusts,Consumer Services,43709651,66,2,6,true,32,15,14053464,4,37927994,6,92,5,7
+39,17,true,2,Food Distributors,Consumer Non-Durables,11712833,72,3,6,false,17,9,52957928,4,47732270,36,34,18,11
+69,20,false,3,Steel/Iron Ore,Basic Industries,8769696,66,1,8,false,60,21,50716681,5,44517847,44,85,23,23
+55,14,false,3,n/a,n/a,16043089,14,3,10,true,33,19,17886401,5,3744682,42,57,45,8
+43,2,false,1,Major Pharmaceuticals,Health Care,5969217,98,4,1,false,16,19,3300498,3,57305648,38,99,15,92
+28,7,false,3,Oil & Gas Production,Energy,7403343,90,3,0,false,41,5,95350414,4,63576327,68,89,43,83
+46,16,false,1,Property-Casualty Insurers,Finance,16340783,29,4,1,true,47,29,88929822,5,97997108,12,90,12,8
+74,13,false,3,Electric Utilities: Central,Public Utilities,28332166,86,1,1,true,1,8,19842955,5,53015981,30,83,34,48
+70,17,true,1,Computer Software: Prepackaged Software,Technology,29501616,89,4,4,false,54,1,76640608,5,85215524,17,65,26,8
+75,18,false,1,Finance: Consumer Services,Finance,32055322,15,4,4,true,33,7,88953895,4,63691108,59,91,37,49
+61,19,false,1,Major Chemicals,Basic Industries,22435895,37,4,8,false,25,34,94629619,3,30614144,59,100,17,8
+61,1,false,1,n/a,n/a,41057769,34,4,4,true,69,20,14095272,3,57745512,6,54,10,16
+39,7,false,3,Investment Bankers/Brokers/Service,Finance,34314283,89,4,2,true,7,18,50947149,4,98129970,28,48,8,9
+75,18,true,2,Metal Fabrications,Capital Goods,30488591,77,3,10,false,39,13,42608038,4,60619548,77,98,27,37
+67,9,false,3,Major Banks,Finance,42959780,10,4,3,true,47,18,16010577,3,76005883,83,47,43,60
+35,17,false,2,Textiles,Basic Industries,4919123,20,2,1,false,5,9,19783573,4,97577924,66,41,24,36
+47,2,false,3,n/a,n/a,11985227,55,1,2,true,36,30,26733337,5,96953736,47,53,39,93
+70,8,false,2,Industrial Machinery/Components,Technology,43989487,58,1,8,false,14,22,32634413,4,35020219,90,56,38,36
+50,7,true,2,n/a,n/a,48745238,73,1,10,false,17,17,85744071,5,29482791,48,98,42,39
+75,14,false,1,Major Banks,Finance,29380899,16,1,8,false,2,13,96754110,4,62878488,68,86,10,19
+19,19,false,3,Major Banks,Finance,29689930,87,2,6,true,51,33,64644602,5,61960041,36,42,40,52
+59,5,false,2,Real Estate Investment Trusts,Consumer Services,1948212,79,3,7,false,28,5,47477405,3,36216302,87,43,14,33
+18,12,true,3,n/a,n/a,32054166,79,1,0,true,65,29,76051483,4,62548234,95,32,36,12
+38,7,true,3,Finance: Consumer Services,Finance,21192244,16,2,3,true,13,2,43841921,4,13153462,50,45,45,95
+45,10,false,1,Oil & Gas Production,Energy,23144200,91,1,10,true,54,19,54420837,4,86492906,91,66,21,60
+74,17,true,2,Containers/Packaging,Consumer Durables,36486676,40,1,2,true,70,20,70481458,3,49890396,89,38,40,20
+47,5,false,3,Accident &Health Insurance,Finance,4553017,25,2,9,false,34,6,67099603,3,43374636,12,43,35,71
+56,3,true,1,Hospital/Nursing Management,Health Care,22183937,83,3,5,false,25,4,35326250,3,74912526,82,67,12,92
+57,19,false,3,Auto Manufacturing,Capital Goods,32544046,72,1,1,true,39,23,3917062,4,8618624,34,62,22,39
