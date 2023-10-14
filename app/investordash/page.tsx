@@ -1,8 +1,9 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from "react";
 import { ArrowRight, Filter, HelpCircle, Info, Search } from "lucide-react";
 import { UserButton } from "@clerk/nextjs";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 interface Company {
   id: number;
@@ -17,6 +18,7 @@ interface Company {
 }
 
 export default function Dashboard() {
+  const router = useRouter();
   const [data, setData] = useState<Company[]>([]);
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [filteredData, setFilteredData] = useState<Company[]>([]);
@@ -73,6 +75,7 @@ export default function Dashboard() {
         company.last_name.toLowerCase().includes(query.toLowerCase()) ||
         company.company_bio.toLowerCase().includes(query.toLowerCase()) ||
         company.company_name.toLowerCase().includes(query.toLowerCase())
+
         // Add more properties if needed
       );
     });
@@ -111,7 +114,7 @@ export default function Dashboard() {
               <Search />
             </div>
           </div>
-          <Link href='https://www.cnbc.com/world/?region=world'>
+          <Link href="https://www.cnbc.com/world/?region=world">
             <button className="ml-4 text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-xs px-2 py-1 text-center">
               Look!
             </button>
@@ -142,7 +145,7 @@ export default function Dashboard() {
           />
           <div className="absolute top-0 right-0 flex items-center h-full pr-3">
             <div>
-              <Search/>
+              <Search />
             </div>
             <button className="icon-container" onClick={openModal}>
               <Filter />
@@ -168,7 +171,10 @@ export default function Dashboard() {
                 max="50000000"
                 step="100000"
                 onChange={(e) => {
-                  setFilters({ ...filters, valuation: parseInt(e.target.value) });
+                  setFilters({
+                    ...filters,
+                    valuation: parseInt(e.target.value),
+                  });
                 }}
               />
               <span>50,000,000</span>
@@ -237,7 +243,10 @@ export default function Dashboard() {
                 max="50"
                 step="1"
                 onChange={(e) => {
-                  setFilters({ ...filters, experience: parseInt(e.target.value) });
+                  setFilters({
+                    ...filters,
+                    experience: parseInt(e.target.value),
+                  });
                 }}
               />
               <span>50</span>
@@ -254,7 +263,10 @@ export default function Dashboard() {
               max="100"
               step="1"
               onChange={(e) => {
-                setFilters({ ...filters, growthRate: parseInt(e.target.value) });
+                setFilters({
+                  ...filters,
+                  growthRate: parseInt(e.target.value),
+                });
               }}
             />
 
@@ -326,18 +338,15 @@ export default function Dashboard() {
           </div>
         </div>
       )}
-      
+
       <div className="overflow-x-auto mt-20 ml-4 mr-4 rounded-lg">
         <table className="min-w-full">
           <thead className="bg-gray-800 border border-gray-400">
             <tr>
               <th className="px-6 py-3 text-left text-xs font-medium bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent uppercase tracking-wider border-r border-gray-400">
-                First Name
+                Name
               </th>
               <th className="px-6 py-3 text-left text-xs font-medium bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent uppercase tracking-wider border-r border-gray-400">
-                Last Name
-              </th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider border-r border-gray-400">
                 Email
               </th>
               <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider border-r border-gray-400">
@@ -346,30 +355,45 @@ export default function Dashboard() {
               <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider border-r border-gray-400">
                 Company Bio
               </th>
+              <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider border-r border-gray-400">
+                Valuation
+              </th>
               <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider">
-                Industry
+                Age
+              </th>
+              <th className="px-6 py-3 text-left text-xs font-medium uppercase bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent tracking-wider">
+                Location
               </th>
             </tr>
           </thead>
-          <tbody className="bg-white divide-y divide-gray-300">
+          <tbody className="bg-black divide-y divide-gray-300">
             {filteredData.map((company, index) => (
               <tr key={index}>
-                <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 font-semibold hover:text-decoration-line: underline bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-                  <Link href={`/dashboard/${company.id}`}>
+                <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 font-semibold hover:text-decoration-line: underline bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
+                  {/* Create a link with dynamic slug */}
+                  <Link
+                    href={`/investordash/${company.first_name}/${company.last_name}/${company.email}/${company.country}/${company.name}/${company.location}/${company.valuation}/${company.company_bio}`}
+                  >
                     {company.first_name} {company.last_name}
                   </Link>
                 </td>
-                <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
+                <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
                   {company.email}
                 </td>
-                <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
+                <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
                   {company.country}
                 </td>
-                <td className="px-6 py-4 whitespace-wrap border-r border-b border-gray-400 text-gray-400">
+                <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
                   {company.company_bio}
                 </td>
                 <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
-                  {company.industry}
+                  {company.valuation}
+                </td>
+                <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
+                  {company.company_name}
+                </td>
+                <td className="px-6 py-4 whitespace-wrap border-b border-gray-400 text-gray-400">
+                  {company.location}
                 </td>
               </tr>
             ))}
